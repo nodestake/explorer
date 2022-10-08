@@ -14,7 +14,7 @@
         "base": "apoint",
         "symbol": "POINT",
         "exponent": "18",
-        "coingecko_id": "",
+        "coingecko_id": "point-network",
         "logo": "/logos/point.jpeg"
     }]
 }
