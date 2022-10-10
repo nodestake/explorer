@@ -1,8 +1,8 @@
 {
-    "chain_name": "lambda-testnet",
+    "chain_name": "Lambda",
     "coingecko": "",
-    "api": ["https://api-t.lambda.nodestake.top"],
-    "rpc": ["https://rpc-t.lambda.nodestake.top"],
+    "api": ["https://api.lambda.nodestake.top"],
+    "rpc": ["https://rpc.lambda.nodestake.top"],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
     "coin_type": "60",
