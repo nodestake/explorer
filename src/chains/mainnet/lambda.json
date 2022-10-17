@@ -1,7 +1,7 @@
 {
     "chain_name": "Lambda",
-    "api": ["https://api.lambda.nodestake.top","https://api-lambda.nodeist.net"],
-    "rpc": ["https://rpc.lambda.nodestake.top","https://rpc-lambda.nodeist.net"],
+    "api": ["https://api.lambda.nodestake.top","https://rest.lambda.im","https://api-lambda.d-stake.xyz"],
+    "rpc": ["https://rpc.lambda.nodestake.top","https://rpc.lambda.im","https://rpc-lambda.d-stake.xyz"],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
     "coin_type": "60",
