@@ -1,6 +1,5 @@
 {
     "chain_name": "Lambda",
-    "coingecko": "",
     "api": ["https://api.lambda.nodestake.top","https://api-lambda.nodeist.net"],
     "rpc": ["https://rpc.lambda.nodestake.top","https://rpc-lambda.nodeist.net"],
     "snapshot_provider": "",
