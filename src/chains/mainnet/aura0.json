@@ -1,0 +1,18 @@
+{
+    "chain_name": "okp4-testnet",
+    "api": "https://api-t.okp4.nodestake.top",
+    "rpc": "https://rpc-t.okp4.nodestake.top",
+    "snapshot_provider": "",
+    "sdk_version": "0.45.6",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "okp4",
+    "logo": "/logos/okp4.jpg",
+    "assets": [{
+        "base": "uknow",
+        "symbol": "KNOW",
+        "exponent": "6",
+        "coingecko_id": "okp4",
+        "logo": "/logos/okp4.jpg"
+    }]
+}
