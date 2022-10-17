@@ -14,7 +14,7 @@
         "base": "arebus",
         "symbol": "rebus",
         "exponent": "18",
-        "coingecko_id": "",
+        "coingecko_id": "rebus",
         "logo": "/logos/rebus.png"
     }]
 }
