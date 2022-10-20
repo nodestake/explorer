@@ -4,17 +4,17 @@
     "api": ["https://peer1.testnet.uptick.network:1318","https://uptick.api.t.stavr.tech"],
     "rpc": ["http://peer0.testnet.uptick.network:26657"],
     "snapshot_provider": "",
-    "sdk_version": "0.45.6",
+    "sdk_version": "0.46.0",
     "coin_type": "60",
     "min_tx_fee": "3000000000000000",
-    "addr_prefix": "rebus",
-    "logo": "/logos/rebus.png",
+    "addr_prefix": "uptick",
+    "logo": "/logos/uptick.jpg",
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
     "assets": [{
-        "base": "arebus",
-        "symbol": "rebus",
+        "base": "auptick",
+        "symbol": "UPTICK",
         "exponent": "18",
-        "coingecko_id": "rebus",
-        "logo": "/logos/rebus.png"
+        "coingecko_id": "uptick",
+        "logo": "/logos/uptick.jpg"
     }]
 }
