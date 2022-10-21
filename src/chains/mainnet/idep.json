@@ -1,9 +1,9 @@
 {
     "chain_name": "idep",
-    "api": ["https://api.idep.nodestake.top","https://lcd.idep.ezstaking.io"],
-    "rpc": ["https://rpc.idep.nodestake.top","https://rpc.idep.ezstaking.io"],
+    "api": ["https://api.idep.nodestake.top","https://api.idep.sgtstake.com"],
+    "rpc": ["https://rpc.idep.nodestake.top","https://rpc.idep.sgtstake.com"],
     "snapshot_provider": "",
-    "sdk_version": "0.44.4",
+    "sdk_version": "0.45.4",
     "coin_type": "118",
     "min_tx_fee": "5000",
     "addr_prefix": "idep",
