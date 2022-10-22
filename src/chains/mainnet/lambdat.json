@@ -1,5 +1,5 @@
 {
-    "chain_name": "Lambda Testnet",
+    "chain_name": "Lambda-Testnet",
     "api": ["https://api-t.lambda.nodestake.top"],
     "rpc": ["https://rpc-t.lambda.nodestake.top"],
     "snapshot_provider": "",
