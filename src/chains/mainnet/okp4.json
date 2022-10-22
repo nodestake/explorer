@@ -1,7 +1,7 @@
 {
     "chain_name": "okp4-testnet",
-    "api": "https://api-t.okp4.nodestake.top",
-    "rpc": "https://rpc-t.okp4.nodestake.top",
+    "api": ["https://api-t.okp4.nodestake.top","https://okp4-testnet-api.polkachu.com:443"],
+    "rpc": ["https://rpc-t.okp4.nodestake.top","https://okp4-testnet-rpc.polkachu.com:443"],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
     "coin_type": "118",
