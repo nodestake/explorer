@@ -1,0 +1,19 @@
+{
+    "chain_name": "Lambda Testnet",
+    "api": ["https://api-t.lambda.nodestake.top"],
+    "rpc": ["https://rpc-t.lambda.nodestake.top"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.6",
+    "coin_type": "60",
+    "min_tx_fee": "3000000000000000",
+    "addr_prefix": "lamb",
+    "logo": "/logos/lambda.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "assets": [{
+        "base": "ulamb",
+        "symbol": "LAMB",
+        "exponent": "18",
+        "coingecko_id": "",
+        "logo": "/logos/lambda.jpg"
+    }]
+}
