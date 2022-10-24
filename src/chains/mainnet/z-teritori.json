@@ -1,0 +1,18 @@
+{
+    "chain_name": "Teritori-Testnet",
+    "api": ["https://api-t.teritori.nodestake.top","https://teritori-testnet.api.kjnodes.com","https://teritori-api.polkachu.com"],
+    "rpc": ["https://rpc-t.teritori.nodestake.top","https://teritori-testnet.rpc.kjnodes.com","https://teritori-rpc.polkachu.com"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.5",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "tori",
+    "logo": "/logos/teritori.jpg",
+    "assets": [{
+        "base": "utori",
+        "symbol": "TORI",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/teritori.jpg"
+    }]
+}
