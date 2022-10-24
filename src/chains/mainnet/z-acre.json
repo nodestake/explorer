@@ -11,7 +11,7 @@
     "logo": "/logos/acre.jpg",
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
     "assets": [{
-        "base": "uacre",
+        "base": "aacre",
         "symbol": "ACRE",
         "exponent": "18",
         "coingecko_id": "",
