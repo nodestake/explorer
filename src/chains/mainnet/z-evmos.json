@@ -10,8 +10,8 @@
     "logo": "/logos/evmos.png",
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
     "assets": [{
-        "base": "aevmos",
-        "symbol": "evmos",
+        "base": "atevmos",
+        "symbol": "TEVMOS",
         "exponent": "18",
         "coingecko_id": "",
         "logo": "/logos/evmos.jpeg"
