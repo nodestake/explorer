@@ -1,5 +1,5 @@
 {
-    "chain_name": "evmos",
+    "chain_name": "evmos-testnet",
     "api": ["https://api-t.evmos.nodestake.top","https://rest.bd.evmos.dev:1317","https://evmos-testnet-rpc.qubelabs.io","https://evmos-testnet-api.polkachu.com"],
     "rpc": ["https://rpc-t.evmos.nodestake.top","https://tendermint.bd.evmos.org:26657","https://evmos-testnet-api.qubelabs.io","https://evmos-testnet-rpc.polkachu.com"],
     "snapshot_provider": "",
