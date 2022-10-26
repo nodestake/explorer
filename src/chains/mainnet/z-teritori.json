@@ -1,7 +1,7 @@
 {
     "chain_name": "Teritori-Testnet",
-    "api": ["https://teritori-testnet.api.kjnodes.com","https://teritori-testnet.nodejumper.io:1317","https://api-t.teritori.nodestake.top","https://teritori-testnet-api.polkachu.com"],
-    "rpc": ["https://teritori-testnet.rpc.kjnodes.com","https://teritori-testnet.nodejumper.io","https://rpc-t.teritori.nodestake.top","https://teritori-testnet-rpc.polkachu.com"],
+    "api": ["https://teritori-testnet.api.kjnodes.com","https://rest.testnet.teritori.com","https://teritori-testnet.nodejumper.io:1317","https://api-t.teritori.nodestake.top","https://teritori-testnet-api.polkachu.com"],
+    "rpc": ["https://teritori-testnet.rpc.kjnodes.com","https://rpc.testnet.teritori.com","https://teritori-testnet.nodejumper.io","https://rpc-t.teritori.nodestake.top","https://teritori-testnet-rpc.polkachu.com"],
     "snapshot_provider": "",
     "sdk_version": "0.45.5",
     "coin_type": "118",

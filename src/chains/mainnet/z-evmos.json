@@ -1,0 +1,19 @@
+{
+    "chain_name": "evmos",
+    "api": ["https://api-t.evmos.nodestake.top","https://rest.bd.evmos.dev:1317","https://evmos-testnet-rpc.qubelabs.io","https://evmos-testnet-api.polkachu.com"],
+    "rpc": ["https://rpc-t.evmos.nodestake.top","https://tendermint.bd.evmos.org:26657","https://evmos-testnet-api.qubelabs.io","https://evmos-testnet-rpc.polkachu.com"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.2",
+    "coin_type": "60",
+    "min_tx_fee": "5000000000000000",
+    "addr_prefix": "evmos",
+    "logo": "/logos/evmos.png",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "assets": [{
+        "base": "aevmos",
+        "symbol": "evmos",
+        "exponent": "18",
+        "coingecko_id": "",
+        "logo": "/logos/evmos.jpeg"
+    }]
+}
