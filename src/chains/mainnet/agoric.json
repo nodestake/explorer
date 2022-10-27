@@ -1,14 +1,14 @@
 {
   "chain_name": "agoric",
   "api": [
+    "https://api.agoric.nodestake.top",
     "https://api.agoric.sgtstake.com",
     "https://agoric-api.polkachu.com",
     "https://api-agoric.nodes.guru",
     "https://agoric.stakesystems.io",
-    "https://agoric-lcd.stakely.io",
-    "https://api.agoric.nodestake.top"
+    "https://agoric-lcd.stakely.io"
   ],
-  "rpc": ["https://main.rpc.agoric.net:443", "https://main.rpc.agoric.net:443","https://rpc.agoric.nodestake.top"],
+  "rpc": ["https://rpc.agoric.nodestake.top","https://main.rpc.agoric.net:443", "https://main.rpc.agoric.net:443"],
   "snapshot_provider": "",
   "sdk_version": "0.45.4",
   "coin_type": "564",
