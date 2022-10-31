@@ -1,15 +1,20 @@
 {
     "chain_name": "Point",
-    "coingecko": "",
     "api": ["https://api.point.nodestake.top","https://rpc-mainnet-1.point.space:1317"],
     "rpc": ["https://rpc.point.nodestake.top","https://rpc-mainnet-1.point.space:26657"],
     "snapshot_provider": "",
     "sdk_version": "0.45.7",
+    "walletUrlForStaking": "https://explorer.nodestake.top/point/staking",
     "coin_type": "60",
     "min_tx_fee": "5000000000000000",
     "addr_prefix": "point",
     "logo": "/logos/point.jpg",
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "gasPriceStep": {
+     "low": 5000000000,
+     "average": 25000000000,
+     "high": 40000000000
+    },
     "assets": [{
         "base": "apoint",
         "symbol": "POINT",
