@@ -1,0 +1,31 @@
+{
+  "chain_name": "Nibiru-Testnet",
+  "api":[
+    "https://api-t.nibiru.nodestake.top"
+  ],
+  "rpc":[
+    "https://rpc-t.nibiru.nodestake.top"
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.46.0",
+  "coin_type": "118",
+  "min_tx_fee": "5000",
+  "assets": [
+    {
+      "base": "unibi",
+      "symbol": "NIBI",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/nibiru.jpg"
+    },
+    {
+      "base": "unusd",
+      "symbol": "NUSD",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": ""
+    }
+  ],
+  "addr_prefix": "nibi",
+  "logo": "/logos/nibiru.jpg"
+}
