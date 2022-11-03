@@ -1,10 +1,12 @@
 {
   "chain_name": "Nibiru-Testnet",
   "api":[
-    "https://api-t.nibiru.nodestake.top"
+    "https://api-t.nibiru.nodestake.top",
+    "https://api-nibiru-testnet-1.mms.team"
   ],
   "rpc":[
-    "https://rpc-t.nibiru.nodestake.top"
+    "https://rpc-t.nibiru.nodestake.top",
+    "https://rpc-nibiru-testnet-1.mms.team"
   ],
   "snapshot_provider": "",
   "sdk_version": "0.46.0",
