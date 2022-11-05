@@ -1,0 +1,25 @@
+{
+    "chain_name": "Defund-Testnet",
+    "coingecko": "",
+    "api": ["https://api-t.defund.nodestake.top",
+            "https://rest.defund.tcnetwork.io",
+            "https://defund-testnet.api.kjnodes.com"
+           ],
+    "rpc": ["https://rpc-t.defund.nodestake.top",
+            "https://rpc.defund.tcnetwork.io",
+            "https://defund-testnet.rpc.kjnodes.com"
+           ],
+    "snapshot_provider": "",
+    "sdk_version": "-",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "defund",
+    "logo": "/logos/defund.jpg",
+    "assets": [{
+        "base": "ufetf",
+        "symbol": "FETF",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/defund.jpg"
+    }]
+}
