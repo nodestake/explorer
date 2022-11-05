@@ -1,8 +1,7 @@
 {
     "chain_name": "mun-testnet",
-    "api": "https://api-t.mun.nodestake.top",
-    "rpc": "https://rpc-t.mun.nodestake.top",
-    "snapshot_provider": "",
+    "api":"https://api-t.mun.nodestake.top",
+    "rpc":"https://rpc-t.mun.nodestake.top",
     "sdk_version": "0.45.6",
     "coin_type": "118",
     "min_tx_fee": "5000",
