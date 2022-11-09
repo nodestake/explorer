@@ -1,0 +1,25 @@
+{
+    "chain_name": "Gitopia-Testnet",
+    "coingecko": "",
+    "api": ["https://api-t.gitopia.nodestake.top",
+            "https://gitopia-testnet-api.polkachu.com",
+            "https://api.gitopia.mcbnode.online"
+           ],
+    "rpc": ["https://rpc-t.gitopia.nodestake.top",
+            "https://gitopia-testnet-rpc.polkachu.com",
+            "https://rpc.gitopia.mcbnode.online"
+           ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.4",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "gitopia",
+    "logo": "/logos/gitopia.png",
+    "assets": [{
+        "base": "utlore",
+        "symbol": "TLORE",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/gitopia.png"
+    }]
+}
