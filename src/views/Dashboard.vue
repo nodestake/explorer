@@ -119,9 +119,14 @@
               <b-link :to="`./${chain}/gov/${prop.id}`">
                 <b-media-body class="d-flex flex-column justify-content-center">
                   <h6 class="transaction-title">
-                    {{ prop.title }}
+                    <b-badge
+                      pill
+                      variant="light-primary"
+                    >
+                      {{ formatType(prop.contents['@type']) }}
+                    </b-badge>{{ prop.title }}
                   </h6>
-                  <small>{{ formatType(prop.contents['@type']) }}  {{ formatEnding(prop.voting_end_time) }}</small>
+                  <small>will {{ caculateTallyResult(prop.tally) }}  {{ formatEnding(prop.voting_end_time) }}</small>
                 </b-media-body>
               </b-link>
             </b-media>
@@ -132,40 +137,58 @@
           >
             <b-row>
               <b-col cols="8">
-                <b-progress
-                  :max="totalPower? 100 * (totalPower/prop.tally.total) :100"
-                  height="2rem"
-                  show-progress
-                >
-                  <b-progress-bar
-                    :id="'vote-yes'+prop.id"
-                    variant="success"
-                    :value="percent(prop.tally.yes)"
-                    show-progress
-                    :label="`${percent(prop.tally.yes).toFixed()}%`"
+                <div class="scale">
+                  <div class="box">
+                    <b-progress
+                      :max="totalPower? 100 * (totalPower/prop.tally.total) :100"
+                      height="2rem"
+                      show-progress
+                      class="font-small-1"
+                    >
+                      <b-progress-bar
+                        :id="'vote-yes'+prop.id"
+                        variant="success"
+                        :value="percent(prop.tally.yes)"
+                        show-progress
+                        :label="`${percent(prop.tally.yes).toFixed()}%`"
+                      />
+                      <b-progress-bar
+                        :id="'vote-no'+prop.id"
+                        variant="danger"
+                        :value="percent(prop.tally.no)"
+                        :label="`${percent(prop.tally.no).toFixed()}%`"
+                        show-progress
+                      />
+                      <b-progress-bar
+                        :id="'vote-veto'+prop.id"
+                        class="bg-danger bg-darken-4"
+                        :value="percent(prop.tally.veto)"
+                        :label="`${percent(prop.tally.veto).toFixed()}%`"
+                        show-progress
+                      />
+                      <b-progress-bar
+                        :id="'vote-abstain'+prop.id"
+                        variant="secondary"
+                        :value="percent(prop.tally.abstain)"
+                        :label="`${percent(prop.tally.abstain).toFixed()}%`"
+                        show-progress
+                      />
+                    </b-progress>
+                  </div>
+                  <div
+                    v-b-tooltip.hover
+                    title="Threshold"
+                    class="box overlay"
+                    :style="`left:${scaleWidth(prop)}%;`"
                   />
-                  <b-progress-bar
-                    :id="'vote-no'+prop.id"
-                    variant="warning"
-                    :value="percent(prop.tally.no)"
-                    :label="`${percent(prop.tally.no).toFixed()}%`"
-                    show-progress
+                  <div
+                    v-if="tallyParam"
+                    v-b-tooltip.hover
+                    title="Quorum"
+                    class="box overlay"
+                    :style="`left:${Number(tallyParam.quorum) * 100}%; border-color:black`"
                   />
-                  <b-progress-bar
-                    :id="'vote-veto'+prop.id"
-                    variant="danger"
-                    :value="percent(prop.tally.veto)"
-                    :label="`${percent(prop.tally.veto).toFixed()}%`"
-                    show-progress
-                  />
-                  <b-progress-bar
-                    :id="'vote-abstain'+prop.id"
-                    variant="secondary"
-                    :value="percent(prop.tally.abstain)"
-                    :label="`${percent(prop.tally.abstain).toFixed()}%`"
-                    show-progress
-                  />
-                </b-progress>
+                </div>
                 <b-tooltip
                   :target="'vote-yes'+prop.id"
                 >
@@ -187,7 +210,10 @@
                   {{ percent(prop.tally.abstain) }}% voters voted Abstain
                 </b-tooltip>
               </b-col>
-              <b-col cols="4">
+              <b-col
+                cols="4"
+                style="padding-top: 0.5em"
+              >
                 <b-button
                   v-b-modal.operation-modal
                   variant="primary"
@@ -229,7 +255,7 @@
       bg-variant="transparent"
       class="shadow-none"
     >
-      <b-card-title class="d-flex justify-content-between">
+      <b-card-title class="d-flex justify-content-between text-capitalize">
         <span>{{ walletName }} Assets </span>
         <small>
           <b-link
@@ -439,7 +465,7 @@
 <script>
 import {
   BRow, BCol, BAlert, BCard, BTable, BFormCheckbox, BCardHeader, BCardTitle, BMedia, BMediaAside, BMediaBody, BAvatar,
-  BCardBody, BLink, BButtonGroup, BButton, BTooltip, VBModal, VBTooltip, BCardFooter, BProgress, BProgressBar,
+  BCardBody, BLink, BButtonGroup, BButton, BTooltip, VBModal, VBTooltip, BCardFooter, BProgress, BProgressBar, BBadge,
 } from 'bootstrap-vue'
 import {
   formatNumber, formatTokenAmount, isToken, percent, timeIn, toDay, toDuration, tokenFormatter, getLocalAccounts,
@@ -478,6 +504,7 @@ export default {
     BProgress,
     BProgressBar,
     VueMarkdown,
+    BBadge,
 
     OperationModal,
     ParametersModuleComponent,
@@ -515,6 +542,7 @@ export default {
       selectedProposalId: 0,
       selectedTitle: '',
       operationModalType: '',
+      tallyParam: null,
       totalPower: 0,
       voteColors: {
         YES: 'success',
@@ -574,12 +602,14 @@ export default {
     })
 
     this.$http.getGovernanceListByStatus(2).then(gov => {
-      gov.proposals.forEach(p => {
+      this.proposals = gov.proposals
+      this.proposals.forEach(p => {
         this.$http.getGovernanceTally(p.id, 0).then(update => {
-          const p2 = p
-          p2.tally = update
-          this.proposals.push(p2)
-          this.proposals.sort((a, b) => a.id - b.id)
+          // const p2 = p
+          // p2.tally = update
+          // this.proposals.push(p2)
+          // this.proposals.sort((a, b) => a.id - b.id)
+          this.$set(p, 'tally', update)
         })
       })
     })
@@ -599,6 +629,10 @@ export default {
       this.communityPool = this.formatToken(res.pool)
     })
 
+    this.$http.getGovernanceParameterTallying().then(res => {
+      this.tallyParam = res
+    })
+
     const conf = this.$http.getSelectedConfig()
     if (conf.excludes && conf.excludes.indexOf('mint') > -1) {
       this.inflation = '-'
@@ -611,6 +645,22 @@ export default {
     }
   },
   methods: {
+    caculateTallyResult(tally) {
+      if (this.tallyParam && tally && this.totalPower > 0) {
+        if (tally.veto < Number(this.tallyParam.veto_threshold)
+        && tally.yes > Number(this.tallyParam.threshold)
+        && tally.total / this.totalPower > Number(this.tallyParam.quorum)) {
+          return 'pass'
+        }
+      }
+      return 'be rejected'
+    },
+    scaleWidth(p) {
+      if (this.tallyParam) {
+        return Number(this.tallyParam.quorum) * Number(this.tallyParam.threshold) * (1 - p.tally.abstain) * 100
+      }
+      return 50
+    },
     selectProposal(modal, pid, title) {
       this.operationModalType = modal
       this.selectedProposalId = Number(pid)
