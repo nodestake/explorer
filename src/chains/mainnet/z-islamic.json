@@ -1,8 +1,16 @@
 {
     "chain_name": "Haqq-Testnet",
     "coingecko": "",
-    "api": ["http://api.haqq.ppnv.space","https://rest.cosmos.testedge.haqq.network"],
-    "rpc": ["http://rpc.haqq.ppnv.space:29657","https://rpc.tm.testedge.haqq.network"],
+    "api":[
+           "https://rest.cosmos.testedge2.haqq.network",
+           "https://api-haqq.palamar.io",
+           "https://haqq-t.api.manticore.team/"        
+         ],
+    "rpc":[
+           "https://rpc.tm.testedge2.haqq.network",
+           "https://rpc-haqq.palamar.io",
+           "https://haqq-t.rpc.manticore.team"
+         ],
     "snapshot_provider": "",
     "sdk_version": "0.45.3",
     "coin_type": "60",
