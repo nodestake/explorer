@@ -1,8 +1,16 @@
 {
     "chain_name": "Sei-testnet",
     "coingecko": "",
-    "api": ["https://sei-api.nodeist.net"],
-    "rpc": ["http://157.245.100.103:36377"],
+    "api":[
+           "https://sei-testnet-api.polkachu.com",
+           "https://api.sei-atlantic-1.silentvalidator.com",
+           "https://api-sei-atlantic-1.mms.team"
+         ],
+    "rpc":[
+           "https://sei-testnet-rpc.polkachu.com",
+           "https://rpc.sei-atlantic-1.silentvalidator.com",
+           "https://rpc-sei-atlantic-1.mms.team"
+         ],
     "snapshot_provider": "",
     "sdk_version": "0.45.4",
     "coin_type": "505",
