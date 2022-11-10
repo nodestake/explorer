@@ -1,0 +1,21 @@
+{
+    "chain_name": "Neutron-Testnet",
+    "coingecko": "",
+    "api": ["https://api-t.neutron.nodestake.top"
+           ],
+    "rpc": ["https://rpc-t.neutron.nodestake.top"
+           ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.1",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "neutron",
+    "logo": "/logos/neutron.jpg",
+    "assets": [{
+        "base": "untrn",
+        "symbol": "NTRN",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/neutron.jpg"
+    }]
+}
