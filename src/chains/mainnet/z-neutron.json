@@ -1,10 +1,16 @@
 {
     "chain_name": "Neutron-Testnet",
     "coingecko": "",
-    "api": ["https://api-t.neutron.nodestake.top"
-           ],
-    "rpc": ["https://rpc-t.neutron.nodestake.top"
-           ],
+    "api":[
+           "https://api-t.neutron.nodestake.top",
+           "https://api-neutron.nodeist.net",
+           "https://rest.quark.ntrn.info"
+          ],
+    "rpc":[
+           "https://rpc-t.neutron.nodestake.top",
+           "https://rpc-neutron.nodeist.net",
+           "https://rpc.quark.ntrn.info"
+          ],
     "snapshot_provider": "",
     "sdk_version": "0.46.1",
     "coin_type": "118",
