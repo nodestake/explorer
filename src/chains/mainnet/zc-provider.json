@@ -1,5 +1,5 @@
 {
-    "chain_name": "provider",
+    "chain_name": "provider-isc",
     "api": ["https://rest.provider-sentry-01.goc.earthball.xyz","https://rest.provider-sentry-02.goc.earthball.xyz"],
     "rpc": ["https://rpc.provider-sentry-01.goc.earthball.xyz"],
     "sdk_version": "0.45.7",
@@ -11,7 +11,7 @@
         "base": "uprov",
         "symbol": "PROV",
         "exponent": "6",
-        "coingecko_id": "", 
+        "coingecko_id": "",
         "logo": "/logos/game_of_chain.jpeg"
     }]
 }
