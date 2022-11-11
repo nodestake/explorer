@@ -1,5 +1,5 @@
 {
-    "chain_name": "apollo-isc",
+    "chain_name": "apollo-ics",
     "api": ["https://api-c.apollo.nodestake.top"],
     "rpc": ["https://rpc-c.apollo.nodestake.top"],
     "sdk_version": "0.46.1",

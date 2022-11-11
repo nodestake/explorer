@@ -1,5 +1,5 @@
 {
-    "chain_name": "sputnik-isc",
+    "chain_name": "sputnik-ics",
     "api": ["https://api-c.sputnik.nodestake.top"],
     "rpc": ["https://rpc-c.sputnik.nodestake.top"],
     "sdk_version": "0.46.1",
