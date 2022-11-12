@@ -1,0 +1,23 @@
+{
+    "chain_name": "Nova-Testnet",
+    "coingecko": "",
+    "api":[
+           "https://suprenova-rest.dev-supernova.xyz"
+          ],
+    "rpc":[
+           "https://suprenova-tendermint.dev-supernova.xyz"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.1",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "nova",
+    "logo": "/logos/supernova.jpg",
+    "assets": [{
+        "base": "unova",
+        "symbol": "NOVA",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/supernova.jpg"
+    }]
+}
