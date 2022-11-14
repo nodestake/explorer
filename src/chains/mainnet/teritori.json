@@ -1,9 +1,19 @@
 {
     "chain_name": "teritori",
-    "api": ["https://api.teritori.nodestake.top","https://teritori-api.polkachu.com"],
-    "rpc": ["https://rpc.teritori.nodestake.top","https://teritori-rpc.polkachu.com"],
+    "api":[
+           "https://api.teritori.nodestake.top",
+           "https://teritori-api.polkachu.com",
+           "https://api-teritori.nodeist.net",
+           "https://teritori.api.kjnodes.com"
+          ],
+    "rpc":[
+           "https://rpc.teritori.nodestake.top",
+           "https://teritori-rpc.polkachu.com",
+           "https://rpc-teritori.nodeist.net",
+           "https://teritori.rpc.kjnodes.com"
+          ],
     "snapshot_provider": "",
-    "sdk_version": "0.45.5",
+    "sdk_version": "0.45.9",
     "coin_type": "118",
     "min_tx_fee": "5000",
     "addr_prefix": "tori",
