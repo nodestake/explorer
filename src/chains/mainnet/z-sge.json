@@ -1,0 +1,24 @@
+{
+  "chain_name": "Sge-Testnet",
+  "api": [
+    "https://api-t.sge.nodestake.top",
+    "https://sge-testnet-api.polkachu.com/"
+  ],
+  "rpc": [
+    "https://rpc-t.sge.nodestake.top",
+    "https://sge-testnet-rpc.polkachu.com"
+  ],
+  "sdk_version": "0.45.5",
+  "coin_type": "118",
+  "addr_prefix": "nois",
+  "min_tx_fee": "5000",
+  "logo": "/logos/sge.jpg",
+  "assets": [
+    {
+      "symbol": "SGE",
+      "base": "usge",
+      "exponent": 6,
+      "logo": "/logos/sge.jpg"
+    }
+  ]
+}
