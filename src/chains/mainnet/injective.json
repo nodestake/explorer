@@ -4,12 +4,11 @@
     "rpc": ["https://injective-rpc.api.chainlayer.network:443", "https://injective-rpc.api.chainlayer.network:443"],
     "snapshot_provider": "",
     "sdk_version": "v0.45.5",
-    "coin_type": "60",
+    "coin_type": "",
     "min_tx_fee": "5000",
     "addr_prefix": "inj",
     "excludes": "",
     "logo": "/logos/injective.jpg",
-    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
     "assets": [{
         "base": "inj",
         "symbol": "INJ",
