@@ -9,11 +9,12 @@
     "addr_prefix": "inj",
     "excludes": "",
     "logo": "/logos/injective.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
     "assets": [{
         "base": "inj",
         "symbol": "INJ",
         "exponent": "18",
-        "coingecko_id": "injective-protocol", 
+        "coingecko_id": "injective-protocol",
         "logo": "/logos/injective.jpg"
     }]
 }
