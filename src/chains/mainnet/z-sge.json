@@ -3,12 +3,12 @@
   "api": [
     "https://api-t.sge.nodestake.top",
     "https://api-sge.nodeist.net",
-    "https://sge-testnet-api.polkachu.com"
+    "http://api.testnet.sgenetwork.io:1317"
   ],
   "rpc": [
     "https://rpc-t.sge.nodestake.top",
     "https://rpc-sge.nodeist.net",
-    "https://sge-testnet-rpc.polkachu.com"
+    "http://rpc.testnet.sgenetwork.io:26657"
   ],
   "sdk_version": "0.45.5",
   "coin_type": "118",

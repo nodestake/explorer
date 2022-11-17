@@ -4,7 +4,7 @@
     "rpc": ["https://injective-rpc.api.chainlayer.network:443", "https://injective-rpc.api.chainlayer.network:443"],
     "snapshot_provider": "",
     "sdk_version": "v0.45.5",
-    "coin_type": "60",
+    "coin_type": "",
     "min_tx_fee": "5000",
     "addr_prefix": "inj",
     "excludes": "",
@@ -13,7 +13,7 @@
         "base": "inj",
         "symbol": "INJ",
         "exponent": "18",
-        "coingecko_id": "injective-protocol", 
+        "coingecko_id": "injective-protocol",
         "logo": "/logos/injective.jpg"
     }]
 }
