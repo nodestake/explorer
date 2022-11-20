@@ -1,8 +1,8 @@
 {
     "chain_name": "teritori",
     "api":[
-           "https://api.teritori.nodestake.top",
            "https://teritori-api.polkachu.com",
+           "https://api.teritori.nodestake.top",
            "https://api-teritori.nodeist.net",
            "https://teritori.api.kjnodes.com"
           ],
