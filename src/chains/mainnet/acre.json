@@ -3,10 +3,12 @@
     "coingecko": "",
     "api":[
            "https://api.acre.nodestake.top",
+           "https://api-acrechain.nodeist.net",
            "https://lcd-arable.synergynodes.com"
           ],
     "rpc":[
            "https://rpc.acre.nodestake.top",
+           "https://rpc-acrechain.nodeist.net",
            "https://rpc-arable.synergynodes.com"
           ],
     "snapshot_provider": "",
