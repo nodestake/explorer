@@ -10,6 +10,11 @@
     "addr_prefix": "rebus",
     "logo": "/logos/rebus.png",
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "keplr_price_step": {
+      "low": 0,
+      "average": 25000000000,
+      "high": 40000000000
+    },
     "assets": [{
         "base": "arebus",
         "symbol": "rebus",

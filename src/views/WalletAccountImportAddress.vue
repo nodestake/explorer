@@ -465,7 +465,7 @@ export default {
     },
     initParamsForKeplr(chainid, chain) {
       const gasPriceStep = chain.keplr_price_step || {
-        low: 0.01,
+        low: 0,
         average: 0.025,
         high: 0.03,
       }
