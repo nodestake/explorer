@@ -17,6 +17,11 @@
     "coin_type": "118",
     "min_tx_fee": "5000",
     "addr_prefix": "tori",
+    "keplr_price_step": {
+      "low": 0,
+      "average": 0.25,
+      "high": 0.5
+    },
     "logo": "/logos/teritori.jpg",
     "assets": [{
         "base": "utori",
