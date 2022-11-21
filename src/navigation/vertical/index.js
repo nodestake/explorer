@@ -19,7 +19,7 @@ function processMenu() {
       title: 'blockchains',
       children: blockchains,
       tag: `${blockchains.length}`,
-      icon: 'https://pbs.twimg.com/profile_images/1507365346776588295/9Tq3yreX_400x400.jpg',
+      icon: '/logo.png',
     })
   }
   chainMenus.push({ header: 'LINKS' })
