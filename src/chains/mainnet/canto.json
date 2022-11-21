@@ -10,6 +10,11 @@
     "addr_prefix": "canto",
     "logo": "/logos/canto.png",
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "keplr_price_step": {
+      "low": 500000000000,
+      "average": 1000000000000,
+      "high": 4000000000000
+    },
     "assets": [{
         "base": "acanto",
         "symbol": "CANTO",

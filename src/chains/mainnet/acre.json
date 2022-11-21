@@ -1,10 +1,16 @@
 {
-    "chain_name": "acre-testnet",
+    "chain_name": "Acre",
     "coingecko": "",
-    "api": ["https://api-t.acre.nodestake.top","https://lcd-arable-testnet.synergynodes.com"],
-    "rpc": ["https://rpc-t.acre.nodestake.top","https://rpc-arable-testnet.synergynodes.com"],
+    "api":[
+           "https://api.acre.nodestake.top",
+           "https://lcd-arable.synergynodes.com"
+          ],
+    "rpc":[
+           "https://rpc.acre.nodestake.top",
+           "https://rpc-arable.synergynodes.com"
+          ],
     "snapshot_provider": "",
-    "sdk_version": "0.45.5",
+    "sdk_version": "0.45.9",
     "coin_type": "60",
     "min_tx_fee": "5000000000000000",
     "addr_prefix": "acre",
