@@ -1,5 +1,8 @@
 {
     "chain_name": "sputnik-ics",
+    "provider_chain": {
+        "api": "https://rest.provider-sentry-01.goc.earthball.xyz"
+    },
     "api":[
            "https://api-c.sputnik.nodestake.top",
            "https://goc-sputnik-api.lavenderfive.com"

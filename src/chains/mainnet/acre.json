@@ -3,11 +3,13 @@
     "coingecko": "",
     "api":[
            "https://api.acre.nodestake.top",
-           "https://lcd-arable.synergynodes.com"
+           "https://api-acrechain.nodeist.net",
+           "https://lcd-acre.synergynodes.com"
           ],
     "rpc":[
            "https://rpc.acre.nodestake.top",
-           "https://rpc-arable.synergynodes.com"
+           "https://rpc-acrechain.nodeist.net",
+           "https://rpc-acre.synergynodes.com"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.45.9",

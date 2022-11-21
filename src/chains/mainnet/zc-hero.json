@@ -1,5 +1,8 @@
 {
     "chain_name": "Hero-ics",
+    "provider_chain": {
+        "api": "https://rest.provider-sentry-01.goc.earthball.xyz"
+    },
     "api":[
            "https://api-c.hero.nodestake.top",
            "https://goc-hero-api.lavenderfive.com"

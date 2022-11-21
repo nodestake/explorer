@@ -1,5 +1,8 @@
 {
     "chain_name": "apollo-ics",
+    "provider_chain": {
+        "api": "https://rest.provider-sentry-01.goc.earthball.xyz"
+    },
     "api":[
            "https://api-c.apollo.nodestake.top",
            "https://goc-apollo-api.lavenderfive.com"
