@@ -19,7 +19,7 @@ function processMenu() {
       title: 'blockchains',
       children: blockchains,
       tag: `${blockchains.length}`,
-      icon: 'https://ping.pub/logo.svg',
+      icon: 'https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/atom.png',
     })
   }
   chainMenus.push({ header: 'LINKS' })
