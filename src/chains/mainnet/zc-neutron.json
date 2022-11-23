@@ -15,8 +15,8 @@
     "addr_prefix": "cosmos",
     "logo": "/logos/game_of_chain.jpeg",
     "assets": [{
-        "base": "uhero",
-        "symbol": "HERO",
+        "base": "untrn",
+        "symbol": "NTRN",
         "exponent": "6",
         "coingecko_id": "",
         "logo": "/logos/game_of_chain.jpeg"
