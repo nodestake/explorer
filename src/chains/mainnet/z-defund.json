@@ -1,13 +1,15 @@
 {
     "chain_name": "Defund-Testnet",
     "coingecko": "",
-    "api": ["https://api-t.defund.nodestake.top",
-            "https://rest.defund.tcnetwork.io",
-            "https://defund-testnet.api.kjnodes.com"
+    "api": [
+            "https://defund-testnet.api.kjnodes.com",
+            "https://api-t.defund.nodestake.top",
+            "https://rest.defund.tcnetwork.io"
            ],
-    "rpc": ["https://rpc-t.defund.nodestake.top",
-            "https://rpc.defund.tcnetwork.io",
-            "https://defund-testnet.rpc.kjnodes.com"
+    "rpc": [
+            "https://defund-testnet.rpc.kjnodes.com",
+            "https://rpc-t.defund.nodestake.top",
+            "https://rpc.defund.tcnetwork.io"
            ],
     "snapshot_provider": "",
     "sdk_version": "0.45.10",
