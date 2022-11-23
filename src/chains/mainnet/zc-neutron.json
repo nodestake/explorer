@@ -1,13 +1,13 @@
 {
-    "chain_name": "Hero-ics",
+    "chain_name": "Neutron-ics",
     "provider_chain": {
         "api": "https://rest.provider-sentry-01.goc.earthball.xyz"
     },
     "api":[
-           "https://api-c.hero.nodestake.top"
+           "https://api-c.neutron.nodestake.top"
           ],
     "rpc":[
-           "https://rpc-c.hero.nodestake.top"
+           "https://rpc-c.neutron.nodestake.top"
           ],
     "sdk_version": "0.45.7",
     "coin_type": 118,
@@ -15,8 +15,8 @@
     "addr_prefix": "cosmos",
     "logo": "/logos/game_of_chain.jpeg",
     "assets": [{
-        "base": "uhero",
-        "symbol": "HERO",
+        "base": "untrn",
+        "symbol": "NTRN",
         "exponent": "6",
         "coingecko_id": "",
         "logo": "/logos/game_of_chain.jpeg"
