@@ -1,6 +1,6 @@
 {
     "chain_name": "Acre",
-    "coingecko": "",
+    "coingecko": "arable-protocol",
     "api":[
            "https://api.acre.nodestake.top",
            "https://api-acrechain.nodeist.net",
@@ -27,7 +27,7 @@
         "base": "aacre",
         "symbol": "ACRE",
         "exponent": "18",
-        "coingecko_id": "",
+        "coingecko_id": "arable-protocol",
         "logo": "/logos/acre.jpg"
     }]
 }
