@@ -10,7 +10,7 @@
     "logo": "/logos/lambda.jpg",
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
     "keplr_price_step": {
-      "low": 10000000000,
+      "low": 0,
       "average": 25000000000,
       "high": 40000000000
     },
