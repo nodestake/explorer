@@ -3,11 +3,11 @@
     "api":[
            "https://aura-testnet.api.kjnodes.com",
            "https://api-t.aura.nodestake.top"
-          ]
+          ],
     "rpc":[
            "https://aura-testnet.rpc.kjnodes.com",
            "https://rpc-t.aura.nodestake.top"
-          ]
+         ],
     "snapshot_provider": "",
     "sdk_version": "0.45.1",
     "coin_type": "118",
