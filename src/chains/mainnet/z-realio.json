@@ -19,15 +19,15 @@
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
     "assets": [
       {
-        "base": "arst",
-        "symbol": "RST",
+        "base": "ario",
+        "symbol": "RIO",
         "exponent": "18",
         "coingecko_id": "",
         "logo": "/logos/realio.jpg"
       },
       {
-        "base": "ario",
-        "symbol": "RIO",
+        "base": "arst",
+        "symbol": "RST",
         "exponent": "18",
         "coingecko_id": "",
         "logo": "/logos/realio.jpg"
