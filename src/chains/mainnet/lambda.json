@@ -1,7 +1,7 @@
 {
     "chain_name": "Lambda",
-    "api": ["https://api.lambda.nodestake.top","https://rest.lambda.im"],
-    "rpc": ["https://rpc.lambda.nodestake.top","https://rpc.lambda.im"],
+    "api": ["https://rest.cosmos.directory/lambda","https://api.lambda.nodestake.top","https://rest.lambda.im"],
+    "rpc": ["https://rpc.cosmos.directory/lambda","https://rpc.lambda.nodestake.top","https://rpc.lambda.im"],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
     "coin_type": "60",

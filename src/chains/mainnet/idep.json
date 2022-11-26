@@ -1,7 +1,7 @@
 {
     "chain_name": "idep",
-    "api": ["https://api.idep.nodestake.top","https://api.idep.sgtstake.com"],
-    "rpc": ["https://rpc.idep.nodestake.top","https://rpc.idep.sgtstake.com"],
+    "api": ["https://rest.cosmos.directory/idep","https://api.idep.nodestake.top","https://api.idep.sgtstake.com"],
+    "rpc": ["https://rpc.cosmos.directory/idep","https://rpc.idep.nodestake.top","https://rpc.idep.sgtstake.com"],
     "snapshot_provider": "",
     "sdk_version": "0.45.4",
     "coin_type": "118",
