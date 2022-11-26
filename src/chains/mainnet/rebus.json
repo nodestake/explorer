@@ -2,16 +2,16 @@
     "chain_name": "rebus",
     "coingecko": "",
     "api": [
-            "https://rest.cosmos.directory/rebus"
+            "https://rest.cosmos.directory/rebus",
             "https://api.rebus.nodestake.top",
             "https://api.mainnet.rebus.money:1317",
-            "https://api-rebus.nodeist.net",
+            "https://api-rebus.nodeist.net"
           ],
     "rpc": [
-            "https://rpc.cosmos.directory/rebus"
+            "https://rpc.cosmos.directory/rebus",
             "https://rpc.rebus.nodestake.top",
             "https://api.mainnet.rebus.money:26657",
-            "https://rpc-rebus.nodeist.net",
+            "https://rpc-rebus.nodeist.net"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
