@@ -1,8 +1,8 @@
 {
     "chain_name": "Point",
     "coingecko": "",
-    "api": ["https://api.point.nodestake.top","https://rpc-mainnet-1.point.space:1317"],
-    "rpc": ["https://rpc.point.nodestake.top","https://rpc-mainnet-1.point.space:26657"],
+    "api": ["https://rest.cosmos.directory/point","https://api.point.nodestake.top","https://rpc-mainnet-1.point.space:1317"],
+    "rpc": ["https://rpc.cosmos.directory/point","https://rpc.point.nodestake.top","https://rpc-mainnet-1.point.space:26657"],
     "snapshot_provider": "",
     "sdk_version": "0.45.7",
     "coin_type": "60",

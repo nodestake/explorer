@@ -1,8 +1,8 @@
 {
     "chain_name": "canto",
     "coingecko": "",
-    "api": ["https://api.canto.nodestake.top","https://canto-api.polkachu.com"],
-    "rpc": ["https://rpc.canto.nodestake.top","https://canto-rpc.polkachu.com"],
+    "api": ["https://rest.cosmos.directory/canto","https://api.canto.nodestake.top","https://canto-api.polkachu.com"],
+    "rpc": ["https://api.cosmos.directory/canto","https://rpc.canto.nodestake.top","https://canto-rpc.polkachu.com"],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
     "coin_type": "60",
