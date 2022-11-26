@@ -1,8 +1,15 @@
 {
     "chain_name": "realio-testnet",
     "coingecko": "",
-    "api": ["https://api-t.realio.nodestake.top"],
-    "rpc": ["https://rpc-t.realio.nodestake.top"],
+    "api": [
+            "https://api-realio.nodeist.net",
+            "https://api-t.realio.nodestake.top",
+            "https://realio.api.t.stavr.tech"
+          ],
+    "rpc": [
+            "https://rpc-realio.nodeist.net",
+            "https://rpc-t.realio.nodestake.top"
+          ],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
     "coin_type": "60",
