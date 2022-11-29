@@ -1,7 +1,15 @@
 {
     "chain_name": "ollo-testnet",
-    "api": "https://api-t.ollo.nodestake.top",
-    "rpc": "https://rpc-t.ollo.nodestake.top",
+    "api": [
+            "https://ollo-testnet-api.polkachu.com:443",
+            "https://api-t.ollo.nodestake.top",
+            "https://api.ollo.zone:443"
+          ],
+    "rpc": [
+            "https://ollo-testnet-rpc.polkachu.com:443",
+            "https://rpc-t.ollo.nodestake.top",
+            "https://rpc.ollo.zone:443"
+          ],
     "snapshot_provider": "",
     "sdk_version": "0.45.7",
     "coin_type": "118",
