@@ -2,7 +2,7 @@
     "chain_name": "Acre",
     "coingecko": "arable-protocol",
     "api":[
-           "https://api.cosmos.directory/acrechain",
+           "https://rest.cosmos.directory/acrechain",
            "https://api.acre.nodestake.top",
            "https://api-acrechain.nodeist.net",
            "https://lcd-acre.synergynodes.com"
