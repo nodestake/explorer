@@ -4,7 +4,7 @@
     "rpc": ["https://rpc.cosmos.directory/lambda","https://rpc.lambda.nodestake.top","https://rpc.lambda.im"],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
-    "coin_type": "60",
+    "coin_type": 60,
     "min_tx_fee": "3000000000000000",
     "addr_prefix": "lamb",
     "logo": "/logos/lambda.jpg",
@@ -17,7 +17,7 @@
     "assets": [{
         "base": "ulamb",
         "symbol": "LAMB",
-        "exponent": "18",
+        "exponent": 18,
         "coingecko_id": "lambda",
         "logo": "/logos/lambda.jpg"
     }]

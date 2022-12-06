@@ -17,7 +17,7 @@
     "assets": [{
         "base": "uprov",
         "symbol": "PROV",
-        "exponent": "6",
+        "exponent": 6,
         "coingecko_id": "",
         "logo": "/logos/game_of_chain.jpeg"
     }]

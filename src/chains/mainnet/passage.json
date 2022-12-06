@@ -4,7 +4,7 @@
   "rpc": ["https://passage-rpc.polkachu.com:443","https://rpc.passage.nodestake.top"],
   "snapshot_provider": "",
   "sdk_version": "0.45.5",
-  "coin_type": "118",
+  "coin_type": 118,
   "min_tx_fee": "800",
   "addr_prefix": "pasg",
   "logo": "/logos/passage.png",
@@ -12,7 +12,7 @@
     {
       "base": "upasg",
       "symbol": "PASG",
-      "exponent": "6"
+      "exponent": 6
     }
   ]
 }

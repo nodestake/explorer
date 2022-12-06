@@ -4,8 +4,8 @@
     "api": ["https://rest.cosmos.directory/jackal","https://api.jackal.nodestake.top","https://api.jackalprotocol.com","https://jackal-api.polkachu.com"],
     "rpc": ["https://rpc.cosmos.directory/jackal","https://rpc.jackal.nodestake.top","https://rpc.jackalprotocol.com","https://jackal-rpc.polkachu.com"],
     "snapshot_provider": "",
-    "coin_type": "118",
-    "sdk_version": "0.45.9",
+    "coin_type": 118,
+    "sdk_version": "0.45.10",
     "addr_prefix": "jkl",
     "keplr_price_step": {
       "low": 0,
@@ -16,7 +16,7 @@
     "assets": [{
         "base": "ujkl",
         "symbol": "JKL",
-        "exponent": "6",
+        "exponent": 6,
         "coingecko_id": "jackal-protocol",
         "logo": "/logos/jackal.png"
     }]

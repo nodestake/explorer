@@ -11,14 +11,14 @@
            ],
     "snapshot_provider": "",
     "sdk_version": "0.46.4",
-    "coin_type": "118",
+    "coin_type": 118,
     "min_tx_fee": "5000",
     "addr_prefix": "gitopia",
     "logo": "/logos/gitopia.png",
     "assets": [{
         "base": "utlore",
         "symbol": "TLORE",
-        "exponent": "6",
+        "exponent": 6,
         "coingecko_id": "",
         "logo": "/logos/gitopia.png"
     }]

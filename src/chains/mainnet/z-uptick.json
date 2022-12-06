@@ -5,7 +5,7 @@
     "rpc": ["http://peer0.testnet.uptick.network:26657"],
     "snapshot_provider": "",
     "sdk_version": "0.46.0",
-    "coin_type": "60",
+    "coin_type": 60,
     "min_tx_fee": "3000000000000000",
     "addr_prefix": "uptick",
     "logo": "/logos/uptick.jpg",
@@ -13,7 +13,7 @@
     "assets": [{
         "base": "auptick",
         "symbol": "UPTICK",
-        "exponent": "18",
+        "exponent": 18,
         "coingecko_id": "uptick",
         "logo": "/logos/uptick.jpg"
     }]

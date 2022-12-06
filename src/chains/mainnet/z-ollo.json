@@ -12,14 +12,14 @@
           ],
     "snapshot_provider": "",
     "sdk_version": "0.45.7",
-    "coin_type": "118",
+    "coin_type": 118,
     "min_tx_fee": "5000",
     "addr_prefix": "ollo",
     "logo": "/logos/ollo.png",
     "assets": [{
         "base": "utollo",
         "symbol": "TOLLO",
-        "exponent": "6",
+        "exponent": 6,
         "coingecko_id": "",
         "logo": "/logos/ollo.png"
     }]

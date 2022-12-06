@@ -5,14 +5,14 @@
     "rpc": ["https://rpc.kaiyo.kujira.setten.io", "https://kujira-api.polkachu.com:443", "https://rpc-stride.nodeist.net"],
     "snapshot_provider": "",
     "sdk_version": "0.45.4",
-    "coin_type": "118",
+    "coin_type": 118,
     "min_tx_fee": "1250",
     "addr_prefix": "kujira",
     "logo": "/logos/kujira.png",
     "assets": [{
         "base": "ukuji",
         "symbol": "KUJI",
-        "exponent": "6",
+        "exponent": 6,
         "coingecko_id": "kujira",
         "logo": "/logos/kujira.png"
     }]
