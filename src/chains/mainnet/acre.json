@@ -28,7 +28,7 @@
     "assets": [{
         "base": "aacre",
         "symbol": "ACRE",
-        "exponent": "18",
+        "exponent": 18,
         "coingecko_id": "arable-protocol",
         "logo": "/logos/acre.jpg"
     }]
