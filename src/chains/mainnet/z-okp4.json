@@ -4,14 +4,14 @@
     "rpc": ["https://rpc-t.okp4.nodestake.top","https://okp4-testnet-rpc.polkachu.com:443"],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
-    "coin_type": "118",
+    "coin_type": 118,
     "min_tx_fee": "5000",
     "addr_prefix": "okp4",
     "logo": "/logos/okp4.jpg",
     "assets": [{
         "base": "uknow",
         "symbol": "KNOW",
-        "exponent": "6",
+        "exponent": 6,
         "coingecko_id": "okp4",
         "logo": "/logos/okp4.jpg"
     }]

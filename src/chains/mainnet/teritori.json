@@ -16,7 +16,7 @@
           ],
     "snapshot_provider": "",
     "sdk_version": "0.45.9",
-    "coin_type": "118",
+    "coin_type": 118,
     "min_tx_fee": "5000",
     "addr_prefix": "tori",
     "keplr_price_step": {
@@ -28,7 +28,7 @@
     "assets": [{
         "base": "utori",
         "symbol": "TORI",
-        "exponent": "6",
+        "exponent": 6,
         "coingecko_id": "teritori",
         "logo": "/logos/teritori.jpg"
     }]

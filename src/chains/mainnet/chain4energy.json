@@ -3,14 +3,14 @@
     "api": ["https://rest.cosmos.directory/chain4energy","https://lcd.c4e.io","https://api.c4e.nodestake.top"],
     "rpc": ["https://rpc.cosmos.directory/chain4energy","https://rpc.c4e.io:443","https://rpc.c4e.nodestake.top"],
     "sdk_version": "0.45.5",
-    "coin_type": "4444",
+    "coin_type": 4444,
     "min_tx_fee": "3000",
     "addr_prefix": "c4e",
     "logo": "/logos/c4e.png",
     "assets": [{
         "base": "uc4e",
         "symbol": "C4E",
-        "exponent": "6",
+        "exponent": 6,
         "logo": "/logos/c4e.png"
     }]
 }

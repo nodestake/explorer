@@ -4,7 +4,7 @@
     "rpc": ["https://rpc-t.terp.nodestake.top","https://terp-rpc.skynetvalidators.com"],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
-    "coin_type": "118",
+    "coin_type": 118,
     "min_tx_fee": "5000",
     "addr_prefix": "terp",
     "logo": "/logos/terp.jpg",
@@ -18,7 +18,7 @@
     {
         "base": "upersyx",
         "symbol": "PERSYX",
-        "exponent": "6",
+        "exponent": 6,
         "coingecko_id": "",
         "logo": "/logos/chronic-token.jpg"
     }]

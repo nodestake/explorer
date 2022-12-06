@@ -10,14 +10,14 @@
          ],
     "snapshot_provider": "",
     "sdk_version": "0.45.1",
-    "coin_type": "118",
+    "coin_type": 118,
     "min_tx_fee": "5000",
     "addr_prefix": "aura",
     "logo": "/logos/auro.jpg",
     "assets": [{
         "base": "eaura",
         "symbol": "AURA",
-        "exponent": "6",
+        "exponent": 6,
         "coingecko_id": "",
         "logo": "/logos/auro.jpg"
     }]

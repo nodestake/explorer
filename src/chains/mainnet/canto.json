@@ -5,7 +5,7 @@
     "rpc": ["https://api.cosmos.directory/canto","https://rpc.canto.nodestake.top","https://canto-rpc.polkachu.com"],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
-    "coin_type": "60",
+    "coin_type": 60,
     "min_tx_fee": "3000000000000000",
     "addr_prefix": "canto",
     "logo": "/logos/canto.png",
@@ -18,7 +18,7 @@
     "assets": [{
         "base": "acanto",
         "symbol": "CANTO",
-        "exponent": "18",
+        "exponent": 18,
         "coingecko_id": "canto",
         "logo": "/logos/canto.jpeg"
     }]

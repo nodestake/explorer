@@ -4,7 +4,7 @@
     "rpc": ["https://rpc-t.evmos.nodestake.top","https://tendermint.bd.evmos.org:26657","https://evmos-testnet-api.qubelabs.io","https://evmos-testnet-rpc.polkachu.com"],
     "snapshot_provider": "",
     "sdk_version": "0.46.2",
-    "coin_type": "60",
+    "coin_type": 60,
     "min_tx_fee": "5000000000000000",
     "addr_prefix": "evmos",
     "logo": "/logos/evmos.png",
@@ -12,7 +12,7 @@
     "assets": [{
         "base": "atevmos",
         "symbol": "TEVMOS",
-        "exponent": "18",
+        "exponent": 18,
         "coingecko_id": "",
         "logo": "/logos/evmos.jpeg"
     }]

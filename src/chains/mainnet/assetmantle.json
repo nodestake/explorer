@@ -4,14 +4,14 @@
     "rpc": ["https://rpc.cosmos.directory/assetmantle","https://rpc.assetmantle.nodestake.top","https://assetmantle-rpc.polkachu.com:443"],
     "snapshot_provider": "",
     "sdk_version": "0.45.1",
-    "coin_type": "118",
+    "coin_type": 118,
     "min_tx_fee": "0",
     "addr_prefix": "mantle",
     "logo": "/logos/assetmantle.jpg",
     "assets": [{
         "base": "umntl",
         "symbol": "MNTL",
-        "exponent": "6",
+        "exponent": 6,
         "coingecko_id": "mantle-1",
         "logo": "/logos/assetmantle.jpg"
     }]

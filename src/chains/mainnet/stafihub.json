@@ -5,32 +5,32 @@
     "rpc": ["https://public-rpc1.stafihub.io:443","https://rpc.stafihub.nodestake.top"],
     "snapshot_provider": "",
     "sdk_version": "0.45.7",
-    "coin_type": "118",
+    "coin_type": 118,
     "min_tx_fee": "20000",
     "addr_prefix": "stafi",
     "logo": "/logos/StaFiHub.jpg",
     "assets": [{
         "base": "ufis",
         "symbol": "FIS",
-        "exponent": "6",
+        "exponent": 6,
         "coingecko_id": "stafi",
         "logo": "/logos/stafihub.png"
     },{
         "base": "uratom",
         "symbol": "rATOM",
-        "exponent": "6",
+        "exponent": 6,
         "coingecko_id": "stafi-ratom",
         "logo": "/logos/stafihub.png"
     },{
         "base": "uriris",
         "symbol": "rIRIS",
-        "exponent": "6",
+        "exponent": 6,
         "coingecko_id": "",
         "logo": "/logos/stafihub.png"
     },{
         "base": "urhuahua",
         "symbol": "rHUAHUA",
-        "exponent": "6",
+        "exponent": 6,
         "coingecko_id": "",
         "logo": "/logos/stafihub.png"
     }]

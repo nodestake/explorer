@@ -5,7 +5,7 @@
     "rpc": ["https://rpc-t.acre.nodestake.top","https://rpc-arable-testnet.synergynodes.com"],
     "snapshot_provider": "",
     "sdk_version": "0.45.5",
-    "coin_type": "60",
+    "coin_type": 60,
     "min_tx_fee": "5000000000000000",
     "addr_prefix": "acre",
     "logo": "/logos/acre.jpg",
@@ -18,7 +18,7 @@
     "assets": [{
         "base": "aacre",
         "symbol": "ACRE",
-        "exponent": "18",
+        "exponent": 18,
         "coingecko_id": "",
         "logo": "/logos/acre.jpg"
     }]

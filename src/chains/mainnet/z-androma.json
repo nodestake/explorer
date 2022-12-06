@@ -4,14 +4,14 @@
     "rpc": ["https://androma-testnet-rpc.polkachu.com","https://rpc-t.androma.nodestake.top"],
     "snapshot_provider": "",
     "sdk_version": "0.46.1",
-    "coin_type": "118",
+    "coin_type": 118,
     "min_tx_fee": "5000",
     "addr_prefix": "aura",
     "logo": "/logos/androma.jpg",
     "assets": [{
         "base": "uandr",
         "symbol": "ANDR",
-        "exponent": "6",
+        "exponent": 6,
         "coingecko_id": "",
         "logo": "/logos/androma.jpg"
     }]

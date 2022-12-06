@@ -4,7 +4,7 @@
     "api":[
            "https://rest.cosmos.testedge2.haqq.network",
            "https://api-haqq.palamar.io",
-           "https://haqq-t.api.manticore.team/"        
+           "https://haqq-t.api.manticore.team/"
          ],
     "rpc":[
            "https://rpc.tm.testedge2.haqq.network",
@@ -13,7 +13,7 @@
          ],
     "snapshot_provider": "",
     "sdk_version": "0.45.3",
-    "coin_type": "60",
+    "coin_type": 60,
     "min_tx_fee": "3000000000000000",
     "addr_prefix": "haqq",
     "logo": "/logos/islamic.png",
@@ -21,7 +21,7 @@
     "assets": [{
         "base": "aISLM",
         "symbol": "ISLM",
-        "exponent": "18",
+        "exponent": 18,
         "coingecko_id": "",
         "logo": "/logos/islamic.png"
     }]

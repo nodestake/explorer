@@ -12,7 +12,7 @@
           ],
     "snapshot_provider": "",
     "sdk_version": "0.46.6",
-    "coin_type": "60",
+    "coin_type": 60,
     "min_tx_fee": "3000000000000000",
     "addr_prefix": "realio",
     "logo": "/logos/realio.jpg",
@@ -21,7 +21,7 @@
       {
         "base": "ario",
         "symbol": "RIO",
-        "exponent": "18",
+        "exponent": 18,
         "coingecko_id": "",
         "logo": "/logos/realio.jpg"
       },
