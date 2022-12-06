@@ -5,7 +5,7 @@
     "rpc": ["https://rpc.cosmos.directory/jackal","https://rpc.jackal.nodestake.top","https://rpc.jackalprotocol.com","https://jackal-rpc.polkachu.com"],
     "snapshot_provider": "",
     "coin_type": "118",
-    "sdk_version": "0.45.9",
+    "sdk_version": "0.45.10",
     "addr_prefix": "jkl",
     "keplr_price_step": {
       "low": 0,
