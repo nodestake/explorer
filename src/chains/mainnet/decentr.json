@@ -1,7 +1,7 @@
 {
     "chain_name": "decentr",
-    "api": ["https://rest.mainnet.decentr.xyz","https://api.decentr.nodestake.top"],
-    "rpc": ["https://ares.mainnet.decentr.xyz:443", "https://poseidon.mainnet.decentr.xyz:443","https://rpc.decentr.nodestake.top"],
+    "api": ["https://rest.cosmos.directory/decentr","https://rest.mainnet.decentr.xyz","https://api.decentr.nodestake.top"],
+    "rpc": ["https://rpc.cosmos.directory/decentr","https://ares.mainnet.decentr.xyz:443", "https://poseidon.mainnet.decentr.xyz:443","https://rpc.decentr.nodestake.top"],
     "snapshot_provider": "",
     "sdk_version": "0.44.3",
     "coin_type": 118,
