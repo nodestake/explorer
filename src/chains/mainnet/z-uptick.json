@@ -1,8 +1,15 @@
 {
     "chain_name": "uptick-testnet",
     "coingecko": "",
-    "api": ["https://peer1.testnet.uptick.network:1318","https://uptick.api.t.stavr.tech"],
-    "rpc": ["http://peer0.testnet.uptick.network:26657"],
+    "api": [
+            "https://peer1.testnet.uptick.network:1318",
+            "https://api-t.uptick.nodestake.top",
+            "https://uptick.api.t.stavr.tech"
+          ],
+    "rpc": [
+            "http://peer0.testnet.uptick.network:26657",
+            "https://rpc-t.uptick.nodestake.top"
+          ],
     "snapshot_provider": "",
     "sdk_version": "0.46.0",
     "coin_type": 60,
