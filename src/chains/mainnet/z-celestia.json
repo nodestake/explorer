@@ -2,12 +2,12 @@
     "chain_name": "Celestia-Testnet",
     "api":[
            "https://celestia-testnet-api.polkachu.com",
-           "https://api-t.aura.nodestake.top",
+           "https://api-t.celestia.nodestake.top",
            "https://celestia-testnet.api.kjnodes.com"
           ],
     "rpc":[
            "https://celestia-testnet-rpc.polkachu.com",
-           "https://rpc-t.aura.nodestake.top",
+           "https://rpc-t.celestia.nodestake.top",
            "https://celestia-testnet.rpc.kjnodes.com"
          ],
     "snapshot_provider": "",
