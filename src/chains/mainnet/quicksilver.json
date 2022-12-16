@@ -1,0 +1,24 @@
+{
+    "chain_name": "Quicksilver",
+    "api":[
+           "https://api.quicksilver.nodestake.top",
+           "https://quicksilver.api.kjnodes.com"
+          ],
+    "rpc":[
+           "https://rpc.quicksilver.nodestake.top",
+           "https://quicksilver.rpc.kjnodes.com"
+         ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.7",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "quick",
+    "logo": "/logos/quicksilver.png",
+    "assets": [{
+        "base": "uqck",
+        "symbol": "QCK",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/quicksilver.png"
+    }]
+}
