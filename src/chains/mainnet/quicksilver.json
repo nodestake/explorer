@@ -1,10 +1,12 @@
 {
     "chain_name": "Quicksilver",
     "api":[
+           "https://rest.cosmos.directory/quicksilver",
            "https://api.quicksilver.nodestake.top",
            "https://quicksilver.api.kjnodes.com"
           ],
     "rpc":[
+           "https://rpc.cosmos.directory/quicksilver",
            "https://rpc.quicksilver.nodestake.top",
            "https://quicksilver.rpc.kjnodes.com"
          ],
