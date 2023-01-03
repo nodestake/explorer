@@ -1,0 +1,26 @@
+{
+    "chain_name": "Humans-testnet",
+    "api":[
+           "https://humans-testnet-api.polkachu.com",
+           "https://api-t.humans.nodestake.top",
+           "https://api-humans.nodeist.net"
+          ],
+    "rpc":[
+           "https://humans-testnet-rpc.polkachu.com",
+           "https://rpc-t.humans.nodestake.top",
+           "https://rpc-humans.nodeist.net"
+         ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.3",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "human",
+    "logo": "/logos/humans.jpg",
+    "assets": [{
+        "base": "uheart",
+        "symbol": "HEART",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/humans.jpg"
+    }]
+}
