@@ -1,7 +1,15 @@
 {
     "chain_name": "terp-testnet",
-    "api": ["https://api-t.terp.nodestake.top","https://terp-api.skynetvalidators.com"],
-    "rpc": ["https://rpc-t.terp.nodestake.top","https://terp-rpc.skynetvalidators.com"],
+    "api": [
+            "https://terp-testnet.api.kjnodes.com",
+            "https://api-t.terp.nodestake.top",
+            "https://terp-testnet.nodejumper.io:1317"
+          ],
+    "rpc": [
+            "https://terp-testnet.rpc.kjnodes.com",
+            "https://rpc-t.terp.nodestake.top",
+            "https://terp-testnet.nodejumper.io:443"
+          ],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
     "coin_type": 118,
