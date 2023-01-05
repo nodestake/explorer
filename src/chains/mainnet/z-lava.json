@@ -1,0 +1,26 @@
+{
+    "chain_name": "Lava-Testnet",
+    "api":[
+           "https://api-t.lava.nodestake.top",
+           "https://lava-testnet.nodejumper.io:1317",
+           "https://api-1.lava.nodes.guru"
+          ],
+    "rpc":[
+           "https://rpc-t.lava.nodestake.top",
+           "https://lava-testnet.nodejumper.io:443",
+           "https://rpc-1.lava.nodes.guru"
+         ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.11",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "lava",
+    "logo": "/logos/lava.jpg",
+    "assets": [{
+        "base": "ulava",
+        "symbol": "LAVA",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/lava.jpg"
+    }]
+}
