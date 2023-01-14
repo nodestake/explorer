@@ -1,0 +1,26 @@
+{
+    "chain_name": "Mars-Testnet",
+    "api":[
+           "https://api-t.mars.nodestake.top",
+           "https://mars-testnet-api.polkachu.com",
+           "https://api-mars.nodeist.net"
+          ],
+    "rpc":[
+           "https://rpc-t.mars.nodestake.top",
+           "https://mars-testnet-rpc.polkachu.com",
+           "https://rpc-mars.nodeist.net"
+         ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.1",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "mars",
+    "logo": "/logos/mars.jpg",
+    "assets": [{
+        "base": "umars",
+        "symbol": "MARS",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/mars.jpg"
+    }]
+}
