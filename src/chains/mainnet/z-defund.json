@@ -4,10 +4,12 @@
     "api": [
             "https://api-t.defund.nodestake.top",
             "https://rest.defund.tcnetwork.io",
+            "https://api-defund.nodeist.net",
             "https://defund-testnet.api.kjnodes.com"
            ],
     "rpc": [
             "https://rpc-t.defund.nodestake.top",
+            "https://rpc-defund.nodeist.net",
             "https://rpc.defund.tcnetwork.io",
             "https://defund-testnet.rpc.kjnodes.com"
            ],
