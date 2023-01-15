@@ -2,8 +2,8 @@
     "chain_name": "Defund-Testnet",
     "coingecko": "",
     "api": [
-            "https://defund-testnet.api.kjnodes.com",
             "https://api-t.defund.nodestake.top",
+            "https://defund-testnet.api.kjnodes.com",
             "https://rest.defund.tcnetwork.io"
            ],
     "rpc": [
