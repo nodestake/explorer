@@ -2,21 +2,25 @@
     "chain_name": "uptick-testnet",
     "coingecko": "",
     "api": [
-            "https://peer1.testnet.uptick.network:1318",
             "https://api-t.uptick.nodestake.top",
-            "https://uptick.api.t.stavr.tech"
+            "https://peer1.testnet.uptick.network:1318"
           ],
     "rpc": [
-            "http://peer0.testnet.uptick.network:26657",
-            "https://rpc-t.uptick.nodestake.top"
+            "https://rpc-t.uptick.nodestake.top",
+            "http://peer0.testnet.uptick.network:26657"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.46.0",
     "coin_type": 60,
-    "min_tx_fee": "3000000000000000",
+    "min_tx_fee": "2000000000000000",
     "addr_prefix": "uptick",
     "logo": "/logos/uptick.jpg",
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "keplr_price_step": {
+      "low": 0,
+      "average": 20000000000,
+      "high": 40000000000
+    },
     "assets": [{
         "base": "auptick",
         "symbol": "UPTICK",
