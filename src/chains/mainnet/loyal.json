@@ -1,0 +1,27 @@
+{
+    "chain_name": "Loyal",
+    "coingecko": "",
+    "api": [
+            "https://api.loyal.nodestake.top",
+            "https://loyal-api.polkachu.com",
+            "https://api-loyal.nodeist.net"
+           ],
+    "rpc": [
+            "https://rpc.loyal.nodestake.top",
+            "https://loyal-rpc.polkachu.com",
+            "https://rpc-loyal.nodeist.net"
+           ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.6",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "loyal",
+    "logo": "/logos/loyal.jpg",
+    "assets": [{
+        "base": "ulyl",
+        "symbol": "LYL",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/loyal.jpg"
+    }]
+}
