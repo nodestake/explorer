@@ -17,6 +17,11 @@
     "addr_prefix": "realio",
     "logo": "/logos/realio.jpg",
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "keplr_price_step": {
+      "low": 0,
+      "average": 25000000000,
+      "high": 40000000000
+    },
     "assets": [
       {
         "base": "ario",
