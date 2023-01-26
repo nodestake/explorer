@@ -2,13 +2,13 @@
     "chain_name": "realio-testnet",
     "coingecko": "",
     "api": [
-            "https://api-realio.nodeist.net",
             "https://api-t.realio.nodestake.top",
+            "https://api-realio.nodeist.net",
             "https://realio.api.t.stavr.tech"
           ],
     "rpc": [
-            "https://rpc-realio.nodeist.net",
-            "https://rpc-t.realio.nodestake.top"
+            "https://rpc-t.realio.nodestake.top",
+            "https://rpc-realio.nodeist.net"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.46.6",
