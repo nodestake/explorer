@@ -2,14 +2,16 @@
     "chain_name": "Sei-testnet",
     "coingecko": "",
     "api":[
+           "https://api-3.sei.nodes.guru",
+           "https://api-t.sei.nodestake.top",
            "https://sei-testnet-api.polkachu.com",
-           "https://api.sei-atlantic-1.silentvalidator.com",
-           "https://api-sei-atlantic-1.mms.team"
+           "https://sei-testnet.api.kjnodes.com"
          ],
     "rpc":[
+           "https://rpc-3.sei.nodes.guru",
+           "https://rpc-t.sei.nodestake.top",
            "https://sei-testnet-rpc.polkachu.com",
-           "https://rpc.sei-atlantic-1.silentvalidator.com",
-           "https://rpc-sei-atlantic-1.mms.team"
+           "https://sei-testnet.rpc.kjnodes.com"
          ],
     "snapshot_provider": "",
     "sdk_version": "0.45.4",
