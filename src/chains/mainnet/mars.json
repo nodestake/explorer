@@ -1,13 +1,13 @@
 {
     "chain_name": "Mars",
     "api":[
-           "https://rest.cosmos.directory/mars",
            "https://api-t.mars.nodestake.top",
+           "https://rest.cosmos.directory/mars",
            "https://mars-api.polkachu.com"
           ],
     "rpc":[
-           "https://rpc.cosmos.directory/mars",
            "https://rpc-t.mars.nodestake.top",
+           "https://rpc.cosmos.directory/mars",
            "https://mars-rpc.polkachu.com"
          ],
     "snapshot_provider": "",
