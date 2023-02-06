@@ -12,7 +12,7 @@
     "sdk_version": "0.45.1",
     "coin_type": 118,
     "min_tx_fee": "5000",
-    "addr_prefix": "whale",
+    "addr_prefix": "migaloo",
     "logo": "/logos/whitewhale.jpg",
     "assets": [{
         "base": "uwhale",
