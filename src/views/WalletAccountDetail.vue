@@ -23,13 +23,22 @@
               style="color: #fff"
               class="mb-0"
             >
-              {{ $t('walletAccountDetail.address') }} <feather-icon
+              {{ $t('walletAccountDetail.address') }}
+              <feather-icon
                 icon="CopyIcon"
                 size="18"
                 @click="copy()"
               />
             </h3>
             {{ address }}
+            <b-badge
+              v-for="name in names"
+              :key="name.name"
+              v-b-tooltip.hover.top="name.provider"
+              variant="primary"
+            >
+              {{ name.name }}
+            </b-badge>
             <span v-if="isEthAddr"> - {{ ethaddress() }}</span>
           </div>
         </div>
@@ -427,7 +436,7 @@ import { $themeColors } from '@themeConfig'
 import dayjs from 'dayjs'
 import {
   BCard, BAvatar, BPopover, BTable, BRow, BCol, BTableSimple, BTr, BTd, BTbody, BCardHeader, BCardTitle, BButton, BCardBody, VBModal,
-  BButtonGroup, VBTooltip, BPagination,
+  BButtonGroup, VBTooltip, BPagination, BBadge,
 } from 'bootstrap-vue'
 import FeatherIcon from '@/@core/components/feather-icon/FeatherIcon.vue'
 import ToastificationContent from '@core/components/toastification/ToastificationContent.vue'
@@ -438,12 +447,20 @@ import {
   toDuration, abbrMessage, abbrAddress, getUserCurrency, getUserCurrencySign, numberWithCommas, toETHAddress,
 } from '@/libs/utils'
 import OperationModal from '@/views/components/OperationModal/index.vue'
+import {
+  convertAddress,
+  resolveDomainDetails,
+  resolveDomainIntoAddresses,
+  resolvePrimaryDomainByAddress,
+  resolveDomainIntoChainAddress,
+} from 'ibc-domains-sdk'
 import ObjectFieldComponent from './components/ObjectFieldComponent.vue'
 import ChartComponentDoughnut from './components/charts/ChartComponentDoughnut.vue'
 
 export default {
   components: {
     BRow,
+    BBadge,
     BCol,
     BCard,
     BAvatar,
@@ -507,6 +524,7 @@ export default {
       stakingParameters: {},
       operationModalType: '',
       error: null,
+      names: [],
     }
   },
   computed: {
@@ -674,6 +692,22 @@ export default {
       })
     }).catch(err => {
       this.error = err
+    })
+    this.$http.resolveStarName(this.address).then(x => {
+      if (x.data) {
+        this.names.push({
+          provider: 'Stargaze',
+          name: x.data,
+        })
+      }
+    })
+    resolvePrimaryDomainByAddress(this.address).then(result => {
+      if (result.isOk()) {
+        this.names.push({
+          provider: 'IBC Domain',
+          name: result.value,
+        })
+      }
     })
   },
   mounted() {
