@@ -1,12 +1,26 @@
 {
     "chain_name": "source-testnet",
-    "api": ["https://testnet.sourceprotocol.io:1317","https://api-t.source.nodestake.top"],
-    "rpc": ["https://testnet.sourceprotocol.io:26657","https://rpc-t.source.nodestake.top"],
+    "api": [
+            "https://api-t.source.nodestake.top",
+            "https://api-source.nodeist.net",
+            "https://source-testnet.api.kjnodes.com"
+          ],
+    "rpc": [
+            "https://rpc-t.source.nodestake.top",
+            "https://rpc-source.nodeist.net",
+            "https://source-testnet.rpc.kjnodes.com"
+          ],
     "snapshot_provider": "",
     "sdk_version": "0.45.1",
-    "coin_type": 118,
-    "min_tx_fee": "5000",
+    "coin_type": 60,
+    "min_tx_fee": "2000000000000000",
     "addr_prefix": "source",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "keplr_price_step": {
+      "low": 0,
+      "average": 20000000000,
+      "high": 40000000000
+    },
     "logo": "/logos/source.jpg",
     "assets": [{
         "base": "usource",
