@@ -19,7 +19,7 @@ function processMenu() {
       title: 'blockchains',
       children: blockchains,
       tag: `${blockchains.length}`,
-      icon: 'https://ping.pub/logo.png',
+      icon: 'ChromeIcon',
     })
   }
   chainMenus.push({ header: 'LINKS' })
