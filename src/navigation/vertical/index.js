@@ -19,6 +19,7 @@ function processMenu() {
       title: 'chains',
       children: blockchains,
       tag: `${blockchains.length}`,
+      icon: 'ChromeIcon',
     })
   }
   chainMenus.push({ header: 'LINKS' })
