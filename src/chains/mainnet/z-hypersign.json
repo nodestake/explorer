@@ -3,11 +3,11 @@
     "api": [
             "https://hypersign-testnet.api.kjnodes.com",
             "https://api-t.hypersign.nodestake.top"
-          ]
+          ],
     "rpc": [
             "https://hypersign-testnet.rpc.kjnodes.com",
             "https://rpc-t.hypersign.nodestake.top"
-          ]
+          ],
     "snapshot_provider": "",
     "sdk_version": "0.45.7",
     "coin_type": 118,
