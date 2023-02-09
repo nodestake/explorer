@@ -1,8 +1,16 @@
 {
     "chain_name": "stafihub",
     "coingecko": "stafi",
-    "api": ["https://public-rest-rpc1.stafihub.io","https://api.stafihub.nodestake.top"],
-    "rpc": ["https://public-rpc1.stafihub.io:443","https://rpc.stafihub.nodestake.top"],
+    "api": [
+            "https://rest.cosmos.directory/stafihub",
+            "https://api.stafihub.nodestake.top",
+            "https://public-rest-rpc1.stafihub.io"
+          ],
+    "rpc": [
+            "https://rpc.cosmos.directory/stafihub",
+            "https://rpc.stafihub.nodestake.top",
+            "https://public-rpc1.stafihub.io:443"
+          ],
     "snapshot_provider": "",
     "sdk_version": "0.45.7",
     "coin_type": 118,
