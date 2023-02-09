@@ -19,7 +19,6 @@ function processMenu() {
       title: 'chains',
       children: blockchains,
       tag: `${blockchains.length}`,
-      icon: 'https://ping.pub/logo.png',
     })
   }
   chainMenus.push({ header: 'LINKS' })
