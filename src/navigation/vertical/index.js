@@ -16,7 +16,7 @@ function processMenu() {
   if (blockchains.length > 1) {
     chainMenus.push({ header: 'ecosystem' })
     chainMenus.push({
-      title: 'blockchains',
+      title: 'chains',
       children: blockchains,
       tag: `${blockchains.length}`,
       icon: 'https://ping.pub/logo.png',

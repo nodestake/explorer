@@ -26,7 +26,7 @@
       <div class="alert-body">
         {{ $t('uptimeMyValidators.two_ways') }}
         <li> {{ $t('uptimeMyValidators.pin') }}</li>
-        <li> {{ $t('uptimeMyValidators.link') }} <pre>https://ping.pub/cosmos/uptime/my?validators={"sifchain":["FBADE9A30473BB9ED6DFA16BFB3838E028F33650"],"chain_name":["hexAddress"]}</pre></li>
+        <li> {{ $t('uptimeMyValidators.link') }} <pre>https://explorer.nodestake.top/cosmos/uptime/my?validators={"sifchain":["FBADE9A30473BB9ED6DFA16BFB3838E028F33650"],"chain_name":["hexAddress"]}</pre></li>
       </div>
     </b-alert>
   </div>
