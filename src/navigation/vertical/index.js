@@ -16,10 +16,10 @@ function processMenu() {
   if (blockchains.length > 1) {
     chainMenus.push({ header: 'ecosystem' })
     chainMenus.push({
-      title: 'blockchains',
+      title: 'chains',
       children: blockchains,
       tag: `${blockchains.length}`,
-      icon: 'https://ping.pub/logo.png',
+      icon: 'ChromeIcon',
     })
   }
   chainMenus.push({ header: 'LINKS' })
@@ -39,7 +39,7 @@ function processMenu() {
   chainMenus.push({
     title: 'Discord',
     href: 'https://discord.gg/puGTkXvkE8',
-    icon: 'EyeIcon',
+    icon: 'MessageSquareIcon',
   })
   chainMenus.push({
     title: 'Twitter',
@@ -47,9 +47,9 @@ function processMenu() {
     icon: 'TwitterIcon',
   })
   chainMenus.push({
-    title: 'Github',
-    href: 'https://github.com/nodestake/explorer',
-    icon: 'GithubIcon',
+    title: 'REStake',
+    href: 'https://restake.nodestake.top',
+    icon: 'CastIcon',
   })
 
   return chainMenus
