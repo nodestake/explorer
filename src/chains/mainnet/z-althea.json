@@ -19,7 +19,7 @@
     "assets": [{
         "base": "ualthea",
         "symbol": "ALTHEA",
-        "exponent": 6,
+        "exponent": 18,
         "coingecko_id": "",
         "logo": "/logos/althea.jpg"
     }]
