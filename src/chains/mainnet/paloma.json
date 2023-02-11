@@ -1,0 +1,24 @@
+{
+    "chain_name": "Paloma",
+    "api": [
+            "https://api.paloma.nodestake.top",
+            "https://paloma.api.kjnodes.com"
+          ],
+    "rpc": [
+            "https://rpc.paloma.nodestake.top",
+            "https://paloma.rpc.kjnodes.com"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.11",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "paloma",
+    "logo": "/logos/paloma.jpg",
+    "assets": [{
+        "base": "ugrain",
+        "symbol": "GRAIN",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/paloma.jpg"
+    }]
+}
