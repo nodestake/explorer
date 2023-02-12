@@ -17,7 +17,7 @@
     "assets": [{
         "base": "utestcore",
         "symbol": "TESTCORE",
-        "exponent": 18,
+        "exponent": 6,
         "coingecko_id": "",
         "logo": "/logos/coreum.jpg"
     }]
