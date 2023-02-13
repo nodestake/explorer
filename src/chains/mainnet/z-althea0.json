@@ -1,0 +1,24 @@
+{
+    "chain_name": "Andromeda-Testnet",
+    "api": [
+            "https://api-t.andromeda.nodestake.top",
+            "https://althea.api.t.anode.team"
+          ],
+    "rpc": [
+            "https://rpc-t.andromeda.nodestake.top",
+            "https://althea.rpc.t.anode.team"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.12",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "andr",
+    "logo": "/logos/andromeda.jpg",
+    "assets": [{
+        "base": "uandr",
+        "symbol": "ANDR",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/andromeda.jpg"
+    }]
+}
