@@ -2,11 +2,11 @@
     "chain_name": "Andromeda-Testnet",
     "api": [
             "https://api-t.andromeda.nodestake.top",
-            "https://althea.api.t.anode.team"
+            "https://api-andromeda.nodeist.net"
           ],
     "rpc": [
             "https://rpc-t.andromeda.nodestake.top",
-            "https://althea.rpc.t.anode.team"
+            "https://rpc-andromeda.nodeist.net"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.45.12",
