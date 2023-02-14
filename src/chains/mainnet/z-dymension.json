@@ -1,0 +1,26 @@
+{
+    "chain_name": "Dymension-Testnet",
+    "api":[
+           "https://api-t.dymension.nodestake.top",
+           "https://dymension-testnet-api.polkachu.com",
+           "https://dymension-testnet.api.kjnodes.com"
+          ],
+    "rpc":[
+           "https://rpc-t.dymension.nodestake.top",
+           "https://dymension-testnet-rpc.polkachu.com",
+           "https://dymension-testnet.rpc.kjnodes.com"
+         ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.10",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "dym",
+    "logo": "/logos/dymension.jpg",
+    "assets": [{
+        "base": "udym",
+        "symbol": "DYM",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/dymension.jpg"
+    }]
+}
