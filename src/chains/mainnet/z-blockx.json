@@ -3,11 +3,13 @@
     "coingecko": "",
     "api": [
             "https://api-t.blockx.nodestake.top",
-            "https://testnet-api.blockxnet.com"
+            "https://testnet8-api.blockxnet.com",
+            "https://api-blockx.nodeist.net"
           ],
     "rpc": [
             "https://rpc-t.blockx.nodestake.top",
-            "https://testnet-keplr.blockxnet.com"
+            "https://testnet8-rpc.blockxnet.com",
+            "https://rpc-blockx.nodeist.net"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.45.7",
