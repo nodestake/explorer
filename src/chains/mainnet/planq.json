@@ -26,7 +26,7 @@
         "base": "aplanq",
         "symbol": "planq",
         "exponent": "18",
-        "coingecko_id": "",
+        "coingecko_id": "planq",
         "logo": "/logos/planq.png"
     }]
 }
