@@ -172,6 +172,9 @@ export default class ChainFetch {
     if (this.config.chain_name === 'echelon') {
       return this.get('/echelon/inflation/v1/inflation_rate').then(data => Number(data.inflation_rate / 100 || 0))
     }
+    if (this.config.chain_name === 'chain4energy') {
+      return this.get('/c4e/minter/v1beta1/inflation').then(data => Number(data.inflation))
+    }
     if (this.isModuleLoaded('minting')) {
       return this.get('/cosmos/mint/v1beta1/inflation').then(data => Number(commonProcess(data.inflation)))
     }
@@ -628,6 +631,22 @@ export default class ChainFetch {
     const conf = config || this.config
     const index = Number(localStorage.getItem(`${conf.chain_name}-api-index`) || 0)
     return index < conf.api.length ? index : 0
+  }
+
+  async getContractInfo(address, config = null) {
+    return this.get(`/cosmwasm/wasm/v1/contract/${address}`, config, true).then(
+      data => commonProcess(data.contract_info),
+    )
+  }
+
+  async queryContract(address, msg, config = null) {
+    return this.get(
+      `/cosmwasm/wasm/v1/contract/${address}/smart/${encodeURIComponent(
+        btoa(msg),
+      )}`,
+      config,
+      true,
+    ).then(data => commonProcess(data))
   }
 
   async resolveStarName(address) {
