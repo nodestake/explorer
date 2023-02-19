@@ -3,11 +3,11 @@
     "coingecko": "",
     "api": [
             "https://api-t.uptick.nodestake.top",
-            "https://peer1.testnet.uptick.network:1318"
+            "https://uptick-testnet.api.kjnodes.com"
           ],
     "rpc": [
             "https://rpc-t.uptick.nodestake.top",
-            "http://peer0.testnet.uptick.network:26657"
+            "https://uptick-testnet.rpc.kjnodes.com"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.46.0",
