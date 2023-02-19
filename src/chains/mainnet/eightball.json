@@ -1,12 +1,14 @@
 {
     "chain_name": "8Ball",
     "api":[
+           "https://rest.cosmos.directory/8ball",
            "https://api.8ball.nodestake.top",
            "https://api-8ball.nodeist.net",
            "https://api.8ball.nodexcapital.com"
           ],
     "rpc":[
-           "https://rpc.8ball.nodestake.top",
+           "https://rpc.cosmos.directory/8ball",
+           "https://api.8ball.nodestake.top",
            "https://rpc-8ball.nodeist.net",
            "https://rpc.8ball.nodexcapital.com"
          ],
