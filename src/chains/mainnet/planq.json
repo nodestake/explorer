@@ -23,8 +23,8 @@
       "high": 40000000000
     },
     "assets": [{
-        "base": "aplq",
-        "symbol": "PLQ",
+        "base": "aplanq",
+        "symbol": "PLANQ",
         "exponent": "18",
         "coingecko_id": "planq",
         "logo": "/logos/planq.png"
