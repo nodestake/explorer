@@ -1,0 +1,33 @@
+{
+    "chain_name": "Cardchain-Testnet",
+    "api": [
+            "https://api-t.crowd.nodestake.top",
+            "https://cardchain-testnet-rpc.itrocket.net"
+          ],
+    "rpc": [
+            "https://rpc-t.crowd.nodestake.top",
+            "https://cardchain-testnet-api.itrocket.net"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.44.5",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "cc",
+    "logo": "/logos/crowd.jpg",
+    "assets": [
+      {
+        "base": "ubpf",
+        "symbol": "BPF",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/crowd.jpg"
+    },
+    {
+      "base": "ucredit",
+      "symbol": "CREDIT",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": ""
+    }
+  ]
+}
