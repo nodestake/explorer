@@ -27,7 +27,7 @@
     {
       "base": "ucredit",
       "symbol": "CREDIT",
-      "exponent": "6",
+      "exponent": 18,
       "coingecko_id": "",
       "logo": ""
     }
