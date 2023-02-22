@@ -2,10 +2,12 @@
     "chain_name": "Cardchain-Testnet",
     "api": [
             "https://api-t.crowd.nodestake.top",
+            "https://cardchain-testnet.nodejumper.io:1317",
             "https://cardchain-testnet-rpc.itrocket.net"
           ],
     "rpc": [
             "https://rpc-t.crowd.nodestake.top",
+            "https://cardchain-testnet.nodejumper.io:443",
             "https://cardchain-testnet-api.itrocket.net"
           ],
     "snapshot_provider": "",
