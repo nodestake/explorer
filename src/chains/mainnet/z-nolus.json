@@ -4,7 +4,7 @@
            "https://net-rila.nolus.io:1317"
           ],
     "rpc":[
-           "https://rpc-t.nolus.nodestake.top",
+           "https://net-rila.nolus.io:26657"
          ],
     "snapshot_provider": "",
     "sdk_version": "0.45.4",
