@@ -1,0 +1,24 @@
+{
+    "chain_name": "Arkh",
+    "api":[
+           "https://api.arkh.nodestake.top",
+           "https://api.arkh.nodexcapital.com"
+          ],
+    "rpc":[
+           "https://rpc.arkh.nodestake.top",
+           "https://rpc.arkh.nodexcapital.com"
+         ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.7",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "arkh",
+    "logo": "/logos/arkh.jpg",
+    "assets": [{
+        "base": "arkh",
+        "symbol": "ARKH",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/arkh.jpg"
+    }]
+}
