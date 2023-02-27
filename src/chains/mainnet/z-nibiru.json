@@ -1,14 +1,12 @@
 {
   "chain_name": "Nibiru-Testnet",
   "api":[
-    "https://t-nibiru.api.utsa.tech",
-    "https://nibiru-testnet.nodejumper.io:1317",
-    "https://api-nibiru-testnet-1.mms.team"
+    "https://api-t.nibiru.nodestake.top",
+    "https://lcd.itn-1.nibiru.fi"
   ],
   "rpc":[
-    "https://t-nibiru.rpc.utsa.tech",
-    "https://nibiru-testnet.nodejumper.io:443",
-    "https://rpc-nibiru-testnet-1.mms.team"
+    "https://rpc-t.nibiru.nodestake.top",
+    "https://rpc.itn-1.nibiru.fi"
   ],
   "snapshot_provider": "",
   "sdk_version": "0.46.0",
