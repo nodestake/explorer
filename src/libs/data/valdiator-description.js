@@ -1,6 +1,6 @@
 export default class ValidatorDescription {
   constructor() {
-    this.moniker = 'NodeStake'
+    this.moniker = 'Moniker'
     this.identity = 'string'
     this.website = 'https://nodestake.top'
     this.security_contact = 'string'
