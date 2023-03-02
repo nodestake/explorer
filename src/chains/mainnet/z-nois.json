@@ -2,7 +2,7 @@
   "chain_name": "nois-testnet",
   "api": [
     "https://api-t.nois.nodestake.top",
-    "https://nois-testnet-api.polkachu.com/"
+    "https://nois-testnet-api.polkachu.com"
   ],
   "rpc": [
     "https://rpc-t.nois.nodestake.top",
