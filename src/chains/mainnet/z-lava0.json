@@ -1,0 +1,25 @@
+{
+    "chain_name": "Sao-Testnet",
+    "api":[
+           "https://api-t.sao.nodestake.top",
+           "https://api.sao.apramweb.tech"
+
+          ],
+    "rpc":[
+           "https://rpc-t.sao.nodestake.top",
+           "https://rpc.sao.apramweb.tech"
+         ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.6",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "lava",
+    "logo": "/logos/sao.jpg",
+    "assets": [{
+        "base": "sao",
+        "symbol": "SAO",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/sao.jpg"
+    }]
+}
