@@ -1,0 +1,26 @@
+{
+  "chain_name": "Ojo-Testnet",
+  "api":[
+    "https://api-t.ojo.nodestake.top",
+    "https://ojo-testnet.api.kjnodes.com",
+    "https://api.ojo-t.indonode.net"
+  ],
+  "rpc":[
+    "https://rpc-t.ojo.nodestake.top",
+    "https://ojo-testnet.rpc.kjnodes.com",
+    "https://rpc.ojo-t.indonode.net"
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.45.11",
+  "coin_type": 118,
+  "min_tx_fee": "5000",
+  "addr_prefix": "ojo",
+  "logo": "/logos/ojo.jpg",
+  "assets": [{
+      "base": "uojo",
+      "symbol": "OJO",
+      "exponent": 6,
+      "coingecko_id": "",
+      "logo": "/logos/ojo.jpg"
+  }]
+}
