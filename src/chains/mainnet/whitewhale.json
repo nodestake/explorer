@@ -2,11 +2,13 @@
     "chain_name": "Whitewhale",
     "api":[
            "https://api.whitewhale.nodestake.top",
-           "https://whitewhale-api.polkachu.com"
+           "https://migaloo-api.polkachu.com",
+           "https://migaloo.api.kjnodes.com"
           ],
     "rpc":[
            "https://rpc.whitewhale.nodestake.top",
-           "https://whitewhale-rpc.polkachu.com"
+           "https://migaloo-rpc.polkachu.com",
+           "https://migaloo.rpc.kjnodes.com"
          ],
     "snapshot_provider": "",
     "sdk_version": "0.45.1",
