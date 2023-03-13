@@ -1,0 +1,22 @@
+{
+    "chain_name": "Kyve",
+    "coingecko": "",
+    "api": [
+            "https://api.kyve.nodestake.top"
+          ],
+    "rpc": [
+            "https://rpc.kyve.nodestake.top"
+          ],
+    "snapshot_provider": "",
+    "coin_type": 118,
+    "sdk_version": "0.46.8",
+    "addr_prefix": "kyve",
+    "logo": "/logos/kyve.jpg",
+    "assets": [{
+        "base": "tkyve",
+        "symbol": "KYVE",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/kyve.jpg"
+    }]
+}
