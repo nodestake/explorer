@@ -2,10 +2,14 @@
     "chain_name": "Kyve",
     "coingecko": "",
     "api": [
-            "https://api.kyve.nodestake.top"
+            "https://api.kyve.nodestake.top",
+            "https://rest.cosmos.directory/kyve",
+            "https://api-kyve.nodeist.net"
           ],
     "rpc": [
-            "https://rpc.kyve.nodestake.top"
+            "https://rpc.kyve.nodestake.top",
+            "https://rpc.cosmos.directory/kyve",
+            "https://rpc-kyve.nodeist.net"
           ],
     "snapshot_provider": "",
     "coin_type": 118,
