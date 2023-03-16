@@ -1,13 +1,10 @@
 {
     "chain_name": "Sao-Testnet",
     "api":[
-           "https://api-t.sao.nodestake.top",
-           "https://api.sao.apramweb.tech"
-
+           "https://api-t.sao.nodestake.top"
           ],
     "rpc":[
-           "https://rpc-t.sao.nodestake.top",
-           "https://rpc.sao.apramweb.tech"
+           "https://rpc-t.sao.nodestake.top"
          ],
     "snapshot_provider": "",
     "sdk_version": "0.46.6",
