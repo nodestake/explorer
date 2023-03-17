@@ -2,7 +2,7 @@
     "chain_name": "Aura",
     "api":[
            "https://api.aura.nodestake.top",
-           "https://aura.api.kjnodes.com",
+           "https://aura.api.kjnodes.com"
           ],
     "rpc":[
            "https://rpc.aura.nodestake.top",
