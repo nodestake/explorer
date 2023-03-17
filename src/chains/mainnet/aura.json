@@ -1,0 +1,24 @@
+{
+    "chain_name": "Aura",
+    "api":[
+           "https://api.aura.nodestake.top",
+           "https://aura.api.kjnodes.com",
+          ],
+    "rpc":[
+           "https://rpc.aura.nodestake.top",
+           "https://aura.rpc.kjnodes.com"
+         ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.1",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "aura",
+    "logo": "/logos/auro.jpg",
+    "assets": [{
+        "base": "uaura",
+        "symbol": "AURA",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/auro.jpg"
+    }]
+}
