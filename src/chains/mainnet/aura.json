@@ -7,7 +7,7 @@
           ],
     "rpc":[
            "https://rpc.aura.nodestake.top",
-           "https://lcd.aura.network",
+           "https://rpc.aura.network",
            "https://aura.rpc.kjnodes.com"
          ],
     "snapshot_provider": "",
