@@ -1,14 +1,14 @@
 {
     "chain_name": "Aura",
     "api":[
+           "https://rest.cosmos.directory/aura",
            "https://api.aura.nodestake.top",
-           "https://lcd.aura.network",
-           "https://aura.api.kjnodes.com"
+           "https://lcd.aura.network"
           ],
     "rpc":[
+           "https://rpc.cosmos.directory/aura",
            "https://rpc.aura.nodestake.top",
-           "https://rpc.aura.network",
-           "https://aura.rpc.kjnodes.com"
+           "https://rpc.aura.network"
          ],
     "snapshot_provider": "",
     "sdk_version": "0.45.1",
