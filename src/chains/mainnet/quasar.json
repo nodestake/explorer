@@ -1,0 +1,25 @@
+{
+    "chain_name": "Quasar",
+    "coingecko": "",
+    "api": [
+            "https://api.quasar.nodestake.top",
+            "https://quasar-api.polkachu.com"
+           ],
+    "rpc": [
+            "https://rpc.quasar.nodestake.top",
+            "https://quasar-rpc.polkachu.com"
+           ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.14",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "quasar",
+    "logo": "/logos/quasar.png",
+    "assets": [{
+        "base": "uqsr",
+        "symbol": "QSR",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/quasar.png"
+    }]
+}
