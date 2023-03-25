@@ -1,0 +1,22 @@
+{
+    "chain_name": "Bonusblock-Testnet",
+    "api": [
+            "https://api-t.bonusblock.nodestake.top"
+          ],
+    "rpc": [
+            "https://rpc-t.bonusblock.nodestake.top"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.11",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "bonus",
+    "logo": "/logos/bonusblock.jpg",
+    "assets": [{
+        "base": "ubonus",
+        "symbol": "BONUS",
+        "exponent": 18,
+        "coingecko_id": "",
+        "logo": "/logos/bonusblock.jpg"
+    }]
+}
