@@ -10,7 +10,7 @@
             "https://uptick.rpc.kjnodes.com"
           ],
     "snapshot_provider": "",
-    "sdk_version": "0.46.0",
+    "sdk_version": "0.45.5",
     "coin_type": 60,
     "min_tx_fee": "2000000000000000",
     "addr_prefix": "uptick",
