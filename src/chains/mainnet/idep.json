@@ -8,6 +8,7 @@
     "min_tx_fee": "5000",
     "addr_prefix": "idep",
     "logo": "/logos/idep.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
     "assets": [{
         "base": "idep",
         "symbol": "IDEP",

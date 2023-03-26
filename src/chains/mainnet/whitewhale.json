@@ -15,6 +15,7 @@
     "min_tx_fee": "5000",
     "addr_prefix": "migaloo",
     "logo": "/logos/whitewhale.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
     "assets": [{
         "base": "uwhale",
         "symbol": "WHALE",

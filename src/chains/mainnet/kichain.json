@@ -8,11 +8,12 @@
     "min_tx_fee": "8000",
     "addr_prefix": "ki",
     "logo": "/logos/kichain.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
     "assets": [{
         "base": "uxki",
         "symbol": "XKI",
         "exponent": "6",
-        "coingecko_id": "ki", 
+        "coingecko_id": "ki",
         "logo": "/logos/kichain.png"
     }]
 }

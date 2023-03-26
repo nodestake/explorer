@@ -30,5 +30,6 @@
     }
   ],
   "addr_prefix": "agoric",
+  "keplr_features": ["ibc-transfer", "ibc-go"],
   "logo": "/logos/agoric.png"
 }

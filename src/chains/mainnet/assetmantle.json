@@ -8,6 +8,7 @@
     "min_tx_fee": "0",
     "addr_prefix": "mantle",
     "logo": "/logos/assetmantle.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
     "assets": [{
         "base": "umntl",
         "symbol": "MNTL",

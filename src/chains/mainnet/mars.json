@@ -18,6 +18,7 @@
     "min_tx_fee": "5000",
     "addr_prefix": "mars",
     "logo": "/logos/mars.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
     "assets": [{
         "base": "umars",
         "symbol": "MARS",
