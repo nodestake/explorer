@@ -15,6 +15,7 @@
     "min_tx_fee": "5000",
     "addr_prefix": "quasar",
     "logo": "/logos/quasar.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
     "assets": [{
         "base": "uqsr",
         "symbol": "QSR",

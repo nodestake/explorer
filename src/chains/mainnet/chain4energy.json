@@ -7,6 +7,7 @@
     "min_tx_fee": "3000",
     "addr_prefix": "c4e",
     "logo": "/logos/c4e.png",
+      "keplr_features": ["ibc-transfer", "ibc-go"],
     "assets": [{
         "base": "uc4e",
         "symbol": "C4E",
