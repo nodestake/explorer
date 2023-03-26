@@ -1,12 +1,12 @@
 {
-    "chain_name": "hypersign-testnet",
+    "chain_name": "Hypersign-Testnet",
     "api": [
-            "https://hypersign-testnet.api.kjnodes.com",
-            "https://api-t.hypersign.nodestake.top"
+            "https://api-t.hypersign.nodestake.top",
+            "https://hypersign-testnet.api.kjnodes.com"
           ],
     "rpc": [
-            "https://hypersign-testnet.rpc.kjnodes.com",
-            "https://rpc-t.hypersign.nodestake.top"
+            "https://rpc-t.hypersign.nodestake.top",
+            "https://hypersign-testnet.rpc.kjnodes.com"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.45.7",
@@ -14,6 +14,7 @@
     "min_tx_fee": "5000",
     "addr_prefix": "hid",
     "logo": "/logos/hypersign.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
     "assets": [{
         "base": "uhid",
         "symbol": "HID",
