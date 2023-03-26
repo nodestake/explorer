@@ -18,6 +18,7 @@
     "min_tx_fee": "5000",
     "addr_prefix": "8ball",
     "logo": "/logos/8ball.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
     "assets": [{
         "base": "uebl",
         "symbol": "EBL",

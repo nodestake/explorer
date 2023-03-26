@@ -14,6 +14,7 @@
     "min_tx_fee": "5000",
     "addr_prefix": "pylo",
     "logo": "/logos/pylons.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
     "assets": [{
         "base": "ubedrock",
         "symbol": "BEDROCK",

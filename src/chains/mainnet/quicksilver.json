@@ -14,6 +14,7 @@
     "min_tx_fee": "5000",
     "addr_prefix": "quick",
     "logo": "/logos/quicksilver.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
     "assets": [{
         "base": "uqck",
         "symbol": "QCK",
