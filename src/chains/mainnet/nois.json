@@ -1,0 +1,22 @@
+{
+  "chain_name": "Nois",
+  "api": [
+    "https://api.nois.nodestake.top"
+  ],
+  "rpc": [
+    "https://rpc.nois.nodestake.top"
+  ],
+  "sdk_version": "0.45.5",
+  "coin_type": 118,
+  "addr_prefix": "nois",
+  "min_tx_fee": "5000",
+  "logo": "/logos/nois.svg",
+  "assets": [
+    {
+      "symbol": "NOIS",
+      "base": "unois",
+      "exponent": 6,
+      "logo": "/logos/nois.svg"
+    }
+  ]
+}
