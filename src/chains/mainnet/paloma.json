@@ -1,12 +1,10 @@
 {
     "chain_name": "Paloma",
     "api": [
-            "https://paloma.api.kjnodes.com",
-            "https://api.paloma.nodestake.top"
+            "https://paloma.api.kjnodes.com"
           ],
     "rpc": [
-            "https://paloma.rpc.kjnodes.com",
-            "https://rpc.paloma.nodestake.top"
+            "https://paloma.rpc.kjnodes.com"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.45.11",
