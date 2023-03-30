@@ -12,7 +12,7 @@
           ],
     "snapshot_provider": "",
     "sdk_version": "0.45.1",
-    "coin_type": 60,
+    "coin_type": 118,
     "min_tx_fee": "2000000000000000",
     "addr_prefix": "source",
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
