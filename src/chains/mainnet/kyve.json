@@ -18,7 +18,7 @@
     "logo": "/logos/kyve.jpg",
     "keplr_features": ["ibc-transfer", "ibc-go"],
     "assets": [{
-        "base": "tkyve",
+        "base": "ukyve",
         "symbol": "KYVE",
         "exponent": 6,
         "coingecko_id": "",
