@@ -12,7 +12,7 @@
   ],
   "sdk_version": "0.45.5",
   "coin_type": 118,
-  "addr_prefix": "nois",
+  "addr_prefix": "sge",
   "min_tx_fee": "5000",
   "logo": "/logos/sge.jpg",
   "assets": [
