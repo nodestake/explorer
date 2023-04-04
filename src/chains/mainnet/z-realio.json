@@ -3,12 +3,11 @@
     "coingecko": "",
     "api": [
             "https://api-t.realio.nodestake.top",
-            "https://api-realio.nodeist.net",
-            "https://realio.api.t.stavr.tech"
+            "https://api.realio-t.indonode.net"
           ],
     "rpc": [
             "https://rpc-t.realio.nodestake.top",
-            "https://rpc-realio.nodeist.net"
+            "https://rpc.realio-t.indonode.net"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.46.6",
