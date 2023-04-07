@@ -1,0 +1,26 @@
+{
+    "chain_name": "omniflix-testnet",
+    "coingecko": "",
+    "api": [
+            "https://api-t.omniflix.nodestake.top",
+            "https://api.testnet.omniflix.network"
+          ],
+    "rpc": [
+            "https://rpc-t.omniflix.nodestake.top",
+            "https://rpc.testnet.omniflix.network"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.10",
+    "coin_type": 118,
+    "min_tx_fee": "3000",
+    "addr_prefix": "omniflix",
+    "logo": "/logos/omniflix.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "assets": [{
+        "base": "uflix",
+        "symbol": "FLIX",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/omniflix.png"
+    }]
+}
