@@ -1,0 +1,29 @@
+{
+    "chain_name": "Terp",
+    "api": [
+            "https://api.terp.nodestake.top"
+          ],
+    "rpc": [
+            "https://rpc.terp.nodestake.top"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.6",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "terp",
+    "logo": "/logos/terp.jpg",
+    "assets": [{
+        "base": "uterpx",
+        "symbol": "TERPX",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/terp.jpg"
+    },
+    {
+        "base": "upersyx",
+        "symbol": "PERSYX",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/chronic-token.jpg"
+    }]
+}
