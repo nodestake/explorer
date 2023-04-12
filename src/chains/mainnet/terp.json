@@ -13,8 +13,8 @@
     "addr_prefix": "terp",
     "logo": "/logos/terp.jpg",
     "assets": [{
-        "base": "uterpx",
-        "symbol": "TERPX",
+        "base": "uterp",
+        "symbol": "TERP",
         "exponent": "6",
         "coingecko_id": "",
         "logo": "/logos/terp.jpg"
