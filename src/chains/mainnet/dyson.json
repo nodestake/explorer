@@ -1,0 +1,25 @@
+{
+    "chain_name": "Dyson",
+    "api":[
+           "https://rest.cosmos.directory/dyson",
+           "https://api.dyson.nodestake.top"
+          ],
+    "rpc":[
+           "https://rpc.cosmos.directory/dyson",
+           "https://rpc.dyson.nodestake.top"
+         ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.7",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "dys",
+    "logo": "/logos/dyson.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "assets": [{
+        "base": "dys",
+        "symbol": "DYS",
+        "exponent": 6,
+        "coingecko_id": "dyson",
+        "logo": "/logos/dyson.jpg"
+    }]
+}
