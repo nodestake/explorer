@@ -1,9 +1,11 @@
 {
   "chain_name": "Nois",
   "api": [
+    "https://rest.cosmos.directory/nois",
     "https://api.nois.nodestake.top"
   ],
   "rpc": [
+    "https://rpc.cosmos.directory/nois",
     "https://rpc.nois.nodestake.top"
   ],
   "sdk_version": "0.45.5",
