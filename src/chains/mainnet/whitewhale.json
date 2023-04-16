@@ -15,6 +15,11 @@
     "addr_prefix": "migaloo",
     "logo": "/logos/whitewhale.jpg",
     "keplr_features": ["ibc-transfer", "ibc-go"],
+    "keplr_price_step": {
+      "low": 0.25,
+      "average": 0.5,
+      "high": 0.75
+    },
     "assets": [{
         "base": "uwhale",
         "symbol": "WHALE",
