@@ -2,12 +2,12 @@
     "chain_name": "Uptick",
     "coingecko": "",
     "api": [
-            "https://api.uptick.nodestake.top",
-            "https://uptick.api.kjnodes.com"
+            "https://rest.cosmos.directory/uptick",
+            "https://api.uptick.nodestake.top"
           ],
     "rpc": [
-            "https://rpc.uptick.nodestake.top",
-            "https://uptick.rpc.kjnodes.com"
+            "https://rpc.cosmos.directory/uptick",
+            "https://rpc.uptick.nodestake.top"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.45.5",
