@@ -1,9 +1,11 @@
 {
     "chain_name": "Terp",
     "api": [
+            "https://rest.cosmos.directory/terpnetwork",
             "https://api.terp.nodestake.top"
           ],
     "rpc": [
+            "https://rpc.cosmos.directory/terpnetwork",
             "https://rpc.terp.nodestake.top"
           ],
     "snapshot_provider": "",
