@@ -23,8 +23,8 @@
     },
     "assets": [{
         "base": "acc",
-        "symbol": "ACC",
-        "exponent": "18",
+        "symbol": "CC",
+        "exponent": "6",
         "coingecko_id": "",
         "logo": "/logos/cascadia.jpg"
     }]
