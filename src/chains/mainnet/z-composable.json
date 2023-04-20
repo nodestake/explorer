@@ -1,7 +1,7 @@
 {
     "chain_name": "Composable-Testnet",
     "api": [
-            "https://api-t.composable.nodestake.top".
+            "https://api-t.composable.nodestake.top",
             "http://65.108.71.163:1317"
           ],
     "rpc": [
