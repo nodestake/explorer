@@ -1,8 +1,8 @@
 {
     "chain_name": "Composable-Testnet",
     "api": [
-            "https://api-banksy.notional.ventures",
-            "https://api-t.composable.nodestake.top"
+            "https://api-t.composable.nodestake.top",
+            "https://api-banksy.notional.ventures"
           ],
     "rpc": [
             "https://rpc-t.composable.nodestake.top"
