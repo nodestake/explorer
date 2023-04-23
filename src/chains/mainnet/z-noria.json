@@ -1,0 +1,24 @@
+{
+    "chain_name": "Noria-Testnet",
+    "api": [
+            "https://api-t.noria.nodestake.top",
+            "https://noria-testnet-api.polkachu.com"
+          ],
+    "rpc": [
+            "https://rpc-t.noria.nodestake.top",
+            "https://noria-testnet-rpc.polkachu.com"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.12",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "noria",
+    "logo": "/logos/noria.jpg",
+    "assets": [{
+        "base": "unoria",
+        "symbol": "NORIA",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/noria.jpg"
+    }]
+}
