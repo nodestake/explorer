@@ -1,16 +1,12 @@
 {
     "chain_name": "mun-testnet",
     "api":[
-           "https://node1api.mun.money",
-           "https://rest.mun.tcnetwork.io",
            "https://api-t.mun.nodestake.top",
-           "https://api.mun.ppnv.space"
+           "https://node1api.mun.money"
           ],
     "rpc":[
-           "https://node1.mun.money",
-           "https://rpc.mun.tcnetwork.io",
            "https://rpc-t.mun.nodestake.top",
-           "https://rpc.mun.ppnv.space:1657"
+           "https://node1.mun.money"
           ],
     "sdk_version": "0.45.6",
     "coin_type": 118,
