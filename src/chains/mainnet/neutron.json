@@ -12,7 +12,7 @@
             "https://neutron-rpc.polkachu.com"
           ],
     "snapshot_provider": "",
-    "sdk_version": "0.47.1",
+    "sdk_version": "0.45.15",
     "coin_type": 118,
     "min_tx_fee": "5000",
     "addr_prefix": "neutron",
