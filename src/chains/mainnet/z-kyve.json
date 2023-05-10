@@ -2,12 +2,10 @@
     "chain_name": "Kyve-Testnet",
     "coingecko": "",
     "api": [
-            "https://api-t.kyve.nodestake.top",
-            "https://api-1.kyve.nodes.guru"
+            "https://api-t.kyve.nodestake.top"
           ],
     "rpc": [
-            "https://rpc-t.kyve.nodestake.top",
-            "https://rpc-1.kyve.nodes.guru"
+            "https://rpc-t.kyve.nodestake.top"
           ],
     "snapshot_provider": "",
     "coin_type": 118,

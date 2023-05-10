@@ -1,0 +1,27 @@
+{
+    "chain_name": "Neutron",
+    "provider_chain": {
+        "api": "https://api-cosmoshub-ia.cosmosia.notional.ventures"
+    },
+    "api": [
+            "https://api.neutron.nodestake.top",
+            "https://neutron-api.polkachu.com"
+          ],
+    "rpc": [
+            "https://rpc.neutron.nodestake.top",
+            "https://neutron-rpc.polkachu.com"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.47.1",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "neutron",
+    "logo": "/logos/neutron.jpg",
+    "assets": [{
+        "base": "untrn",
+        "symbol": "NTRN",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/neutron.jpg"
+    }]
+}
