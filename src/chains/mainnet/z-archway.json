@@ -17,7 +17,7 @@
     "assets": [{
         "base": "aconst",
         "symbol": "CONST",
-        "exponent": 6,
+        "exponent": 18,
         "coingecko_id": "",
         "logo": "/logos/archway.jpg"
     }]
