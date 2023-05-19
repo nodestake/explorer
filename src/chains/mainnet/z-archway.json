@@ -1,0 +1,24 @@
+{
+    "chain_name": "Archway-Testnet",
+    "api": [
+            "https://api-t.archway.nodestake.top",
+            "https://api.constantine.archway.tech"
+          ],
+    "rpc": [
+            "https://rpc-t.archway.nodestake.top",
+            "https://rpc.constantine.archway.tech"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.14",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "archway",
+    "logo": "/logos/archway.jpg",
+    "assets": [{
+        "base": "aconst",
+        "symbol": "CONST",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/archway.jpg"
+    }]
+}
