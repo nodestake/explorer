@@ -1,10 +1,14 @@
 {
     "chain_name": "Gitopia",
     "coingecko": "",
-    "api": ["https://api.gitopia.nodestake.top",
+    "api": [
+            "https://rest.cosmos.directory/gitopia",
+            "https://api.gitopia.nodestake.top",
             "https://gitopia-api.polkachu.com"
            ],
-    "rpc": ["https://rpc.gitopia.nodestake.top",
+    "rpc": [
+            "https://rpc.gitopia.nodestake.top",
+            "https://rpc.cosmos.directory/gitopia",
             "https://gitopia-rpc.polkachu.com"
            ],
     "snapshot_provider": "",
