@@ -18,8 +18,8 @@
     "addr_prefix": "gitopia",
     "logo": "/logos/gitopia.png",
     "assets": [{
-        "base": "utlore",
-        "symbol": "TLORE",
+        "base": "ulore",
+        "symbol": "LORE",
         "exponent": 6,
         "coingecko_id": "",
         "logo": "/logos/gitopia.png"
