@@ -1,0 +1,26 @@
+{
+    "chain_name": "Nolus",
+    "coingecko": "",
+    "api": [
+            "https://rest.cosmos.directory/nolus",
+            "https://pirin-cl.nolus.network:1317"
+          ],
+    "rpc": [
+            "https://rpc.cosmos.directory/nolus",
+            "https://pirin-cl.nolus.network:26657"
+          ],
+    "snapshot_provider": "",
+    "coin_type": 118,
+    "sdk_version": "0.45.15",
+    "addr_prefix": "nolus",
+    "min_tx_fee": "5000",
+    "logo": "/logos/nolus.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "assets": [{
+        "base": "unls",
+        "symbol": "NLS",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/nolus.jpg"
+    }]
+}
