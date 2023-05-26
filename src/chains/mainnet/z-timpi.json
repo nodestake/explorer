@@ -1,0 +1,22 @@
+{
+    "chain_name": "Timpi-Testnet",
+    "api": [
+            "https://api-t.timpi.nodestake.top"
+          ],
+    "rpc": [
+            "https://rpc-t.timpi.nodestake.top"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.14",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "timpitn",
+    "logo": "/logos/timpi.jpg",
+    "assets": [{
+        "base": "utimpiTN",
+        "symbol": "TIMPITN",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/timpi.jpg"
+    }]
+}
