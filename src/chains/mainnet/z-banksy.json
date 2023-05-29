@@ -1,0 +1,22 @@
+{
+    "chain_name": "Banksy-Testnet",
+    "api": [
+            "https://api-t.banksy.nodestake.top"
+          ],
+    "rpc": [
+            "https://rpc-t.banksy.nodestake.top"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.47.1",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "banksy",
+    "logo": "/logos/composable.jpg",
+    "assets": [{
+        "base": "ppica",
+        "symbol": "PICA",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/composable.jpg"
+    }]
+}
