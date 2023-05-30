@@ -1,0 +1,29 @@
+{
+    "chain_name": "Zeta-Testnet",
+    "coingecko": "",
+    "api": [
+            "https://api-t.zeta.nodestake.top"
+          ],
+    "rpc": [
+            "https://rpc-t.zeta.nodestake.top"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.7",
+    "coin_type": 60,
+    "min_tx_fee": "5000000000000000",
+    "addr_prefix": "zeta",
+    "logo": "/logos/zeta.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "keplr_price_step": {
+      "low": 0,
+      "average": 25000000000,
+      "high": 40000000000
+    },
+    "assets": [{
+        "base": "azeta",
+        "symbol": "ZETA",
+        "exponent": 18,
+        "coingecko_id": "",
+        "logo": "/logos/zeta.jpg"
+    }]
+}
