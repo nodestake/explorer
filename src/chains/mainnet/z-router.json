@@ -2,13 +2,15 @@
     "chain_name": "Router-Testnet",
     "coingecko": "",
     "api": [
-            "https://api-t.router.nodestake.top"
+            "https://api-t.router.nodestake.top",
+            "https://lcd.testnet.routerchain.dev"
           ],
     "rpc": [
-            "https://rpc-t.router.nodestake.top"
+            "https://rpc-t.router.nodestake.top",
+            "https://tm.rpc.testnet.routerchain.dev"
           ],
     "snapshot_provider": "",
-    "sdk_version": "0.45.7",
+    "sdk_version": "0.46.8",
     "coin_type": 60,
     "min_tx_fee": "5000000000000000",
     "addr_prefix": "router",
