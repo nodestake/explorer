@@ -2,12 +2,10 @@
     "chain_name": "Lava-Testnet",
     "api":[
            "https://api-t.lava.nodestake.top",
-           "https://lava-testnet.nodejumper.io:1317",
            "https://api-1.lava.nodes.guru"
           ],
     "rpc":[
            "https://rpc-t.lava.nodestake.top",
-           "https://lava-testnet.nodejumper.io:443",
            "https://rpc-1.lava.nodes.guru"
          ],
     "snapshot_provider": "",
