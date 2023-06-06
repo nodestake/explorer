@@ -1,0 +1,33 @@
+{
+    "chain_name": "Haqq",
+    "coingecko": "",
+    "api": [
+            "https://api.haqq.nodestake.top",
+            "https://rest.cosmos.haqq.network",
+            "https://rest.cosmos.directory/haqq"
+          ],
+    "rpc": [
+            "https://rpc.haqq.nodestake.top",
+            "https://rpc.tm.haqq.network",
+            "https://rpc.cosmos.directory/haqq"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.7",
+    "coin_type": 60,
+    "min_tx_fee": "2000000000000000",
+    "addr_prefix": "haqq",
+    "logo": "/logos/haqq.png",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "keplr_price_step": {
+      "low": 0,
+      "average": 20000000000,
+      "high": 40000000000
+    },
+    "assets": [{
+        "base": "aISLM",
+        "symbol": "ISLM",
+        "exponent": 18,
+        "coingecko_id": "haqq",
+        "logo": "/logos/haqq.png"
+    }]
+}
