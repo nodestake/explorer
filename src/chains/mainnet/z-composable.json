@@ -16,7 +16,7 @@
     "assets": [{
         "base": "upica",
         "symbol": "PICA",
-        "exponent": 6,
+        "exponent": 12,
         "coingecko_id": "",
         "logo": "/logos/composable.jpg"
     }]
