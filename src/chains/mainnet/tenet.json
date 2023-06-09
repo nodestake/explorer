@@ -1,0 +1,31 @@
+{
+    "chain_name": "Tenet",
+    "coingecko": "",
+    "api": [
+            "https://rest.cosmos.directory/tenet",
+            "https://api.tenet.nodestake.top"
+          ],
+    "rpc": [
+            "https://rpc.cosmos.directory/tenet",
+            "https://rpc.tenet.nodestake.top"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.9",
+    "coin_type": 60,
+    "min_tx_fee": "2000000000000000",
+    "addr_prefix": "tenet",
+    "logo": "/logos/tenet.png",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "keplr_price_step": {
+      "low": 0,
+      "average": 20000000000,
+      "high": 40000000000
+    },
+    "assets": [{
+        "base": "atenet",
+        "symbol": "TENET",
+        "exponent": 18,
+        "coingecko_id": "tenet",
+        "logo": "/logos/tenet.png"
+    }]
+}
