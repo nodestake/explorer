@@ -1,0 +1,27 @@
+{
+    "chain_name": "neutron-testnet",
+    "provider_chain": {
+        "api": "https://rest.provider-sentry-01.rs-testnet.polypore.xyz"
+    },
+    "api": [
+            "https://api-t.neutron.nodestake.top",
+            "https://neutron-testnet-api.polkachu.com"
+          ],
+    "rpc": [
+            "https://rpc-t.neutron.nodestake.top",
+            "https://neutron-testnet-rpc.polkachu.com"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.15",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "neutron",
+    "logo": "/logos/neutron.jpg",
+    "assets": [{
+        "base": "untrn",
+        "symbol": "NTRN",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/neutron.jpg"
+    }]
+}
