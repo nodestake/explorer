@@ -1,0 +1,25 @@
+{
+    "chain_name": "qwoyn",
+    "api":[
+           "https://api.qwoyn.nodestake.top",
+           "https://rest.cosmos.directory/qwoyn"
+          ],
+    "rpc":[
+           "https://rpc.qwoyn.nodestake.top",
+           "https://rpc.cosmos.directory/qwoyn"
+         ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.1",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "qwoyn",
+    "logo": "/logos/qwoyn.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "assets": [{
+        "base": "uqwoyn",
+        "symbol": "QWOYN",
+        "exponent": 6,
+        "coingecko_id": "qwoyn",
+        "logo": "/logos/qwoyn.jpg"
+    }]
+}
