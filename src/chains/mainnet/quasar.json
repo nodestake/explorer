@@ -1,5 +1,5 @@
 {
-    "chain_name": "Quasar",
+    "chain_name": "quasar",
     "coingecko": "",
     "api": [
             "https://api.quasar.nodestake.top",

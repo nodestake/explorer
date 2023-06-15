@@ -1,5 +1,5 @@
 {
-  "chain_name": "Unification",
+  "chain_name": "unification",
   "coingecko": "unification",
   "api": ["https://rest.unification.chainmasters.ninja", "https://rest.unification.io"],
   "rpc": ["https://rpc.unification.chainmasters.ninja", "https://rpc1.unification.io"],

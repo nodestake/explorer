@@ -1,5 +1,5 @@
 {
-    "chain_name": "Neutron",
+    "chain_name": "neutron",
     "provider_chain": {
         "api": "https://api-cosmoshub-ia.cosmosia.notional.ventures"
     },

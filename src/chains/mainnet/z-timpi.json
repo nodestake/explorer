@@ -1,5 +1,5 @@
 {
-    "chain_name": "Timpi-Testnet",
+    "chain_name": "timpi-testnet",
     "api": [
             "https://api-t.timpi.nodestake.top"
           ],

@@ -1,5 +1,5 @@
 {
-    "chain_name": "8Ball",
+    "chain_name": "8ball",
     "api":[
            "https://rest.cosmos.directory/8ball",
            "https://api.8ball.nodestake.top",

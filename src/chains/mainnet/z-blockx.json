@@ -1,5 +1,5 @@
 {
-    "chain_name": "Blockx-Testnet",
+    "chain_name": "blockx-testnet",
     "coingecko": "",
     "api": [
             "https://api-t.blockx.nodestake.top",

@@ -1,5 +1,5 @@
 {
-    "chain_name": "Mars",
+    "chain_name": "mars",
     "api":[
            "https://rest.cosmos.directory/mars",
            "https://rest.marsprotocol.io/",

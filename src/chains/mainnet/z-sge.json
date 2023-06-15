@@ -1,5 +1,5 @@
 {
-  "chain_name": "Sge-Testnet",
+  "chain_name": "sge-testnet",
   "api": [
     "https://api-t.sge.nodestake.top",
     "https://api-sge.nodeist.net",

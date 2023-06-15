@@ -1,5 +1,5 @@
 {
-  "chain_name": "Nibiru-Testnet",
+  "chain_name": "nibiru-testnet",
   "api":[
     "https://api-t.nibiru.nodestake.top",
     "https://lcd.itn-1.nibiru.fi"

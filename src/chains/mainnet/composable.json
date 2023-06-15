@@ -1,5 +1,5 @@
 {
-    "chain_name": "Composable",
+    "chain_name": "composable",
     "api": [
             "https://rest.cosmos.directory/composable",
             "https://api.composable.nodestake.top"

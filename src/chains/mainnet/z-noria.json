@@ -1,5 +1,5 @@
 {
-    "chain_name": "Noria-Testnet",
+    "chain_name": "noria-testnet",
     "api": [
             "https://api-t.noria.nodestake.top",
             "https://noria-testnet-api.polkachu.com"

@@ -1,5 +1,5 @@
 {
-    "chain_name": "Pylons",
+    "chain_name": "pylons",
     "api":[
            "https://api.pylons.nodestake.top",
            "https://pylons.nodejumper.io:1317"

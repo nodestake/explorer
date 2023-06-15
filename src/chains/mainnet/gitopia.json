@@ -1,5 +1,5 @@
 {
-    "chain_name": "Gitopia",
+    "chain_name": "gitopia",
     "coingecko": "",
     "api": [
             "https://rest.cosmos.directory/gitopia",

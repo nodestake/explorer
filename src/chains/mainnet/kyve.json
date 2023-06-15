@@ -1,5 +1,5 @@
 {
-    "chain_name": "Kyve",
+    "chain_name": "kyve",
     "coingecko": "",
     "api": [
             "https://rest.cosmos.directory/kyve",

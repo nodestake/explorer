@@ -1,5 +1,5 @@
 {
-    "chain_name": "Humans",
+    "chain_name": "humans",
     "coingecko": "",
     "api": [
             "https://api.humans.nodestake.top"

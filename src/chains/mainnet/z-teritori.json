@@ -1,5 +1,5 @@
 {
-    "chain_name": "Teritori-Testnet",
+    "chain_name": "teritori-testnet",
     "api": [
             "https://api-t.teritori.nodestake.top",
             "https://rest.testnet.teritori.com"

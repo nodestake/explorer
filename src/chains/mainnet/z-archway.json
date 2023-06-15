@@ -1,5 +1,5 @@
 {
-    "chain_name": "Archway-Testnet",
+    "chain_name": "archway-testnet",
     "api": [
             "https://api-t.archway.nodestake.top",
             "https://api.constantine.archway.tech"

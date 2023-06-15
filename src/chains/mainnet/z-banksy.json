@@ -1,5 +1,5 @@
 {
-    "chain_name": "Banksy-Testnet",
+    "chain_name": "banksy-testnet",
     "api": [
             "https://api-t.banksy.nodestake.top"
           ],

@@ -1,5 +1,5 @@
 {
-  "chain_name": "Nois",
+  "chain_name": "nois",
   "api": [
     "https://rest.cosmos.directory/nois",
     "https://api.nois.nodestake.top"
