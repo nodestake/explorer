@@ -1,5 +1,5 @@
 {
-    "chain_name": "Bonusblock-Testnet",
+    "chain_name": "bonusblock-testnet",
     "api": [
             "https://api-t.bonusblock.nodestake.top"
           ],

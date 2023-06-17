@@ -1,5 +1,5 @@
 {
-    "chain_name": "Lava-Testnet",
+    "chain_name": "lava-testnet",
     "api":[
            "https://api-t.lava.nodestake.top",
            "https://api-1.lava.nodes.guru"

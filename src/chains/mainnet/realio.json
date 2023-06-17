@@ -1,5 +1,5 @@
 {
-    "chain_name": "Realio",
+    "chain_name": "realio",
     "coingecko": "",
     "api": [
             "https://api.realio.nodestake.top"

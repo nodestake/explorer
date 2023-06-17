@@ -1,12 +1,10 @@
 {
-    "chain_name": "archway-testnet",
+    "chain_name": "archway-dry",
     "api": [
-            "https://api-t.archway.nodestake.top",
-            "https://api.constantine.archway.tech"
+            "https://api-dry.archway.nodestake.top"
           ],
     "rpc": [
-            "https://rpc-t.archway.nodestake.top",
-            "https://rpc.constantine.archway.tech"
+            "https://rpc-dry.archway.nodestake.top"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.45.14",
@@ -15,8 +13,8 @@
     "addr_prefix": "archway",
     "logo": "/logos/archway.jpg",
     "assets": [{
-        "base": "aconst",
-        "symbol": "CONST",
+        "base": "aarch",
+        "symbol": "ARCH",
         "exponent": 18,
         "coingecko_id": "",
         "logo": "/logos/archway.jpg"

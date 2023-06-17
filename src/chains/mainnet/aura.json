@@ -1,5 +1,5 @@
 {
-    "chain_name": "Aura",
+    "chain_name": "aura",
     "api":[
            "https://rest.cosmos.directory/aura",
            "https://api.aura.nodestake.top",

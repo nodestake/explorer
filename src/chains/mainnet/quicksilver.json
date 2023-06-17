@@ -1,5 +1,5 @@
 {
-    "chain_name": "Quicksilver",
+    "chain_name": "quicksilver",
     "api":[
            "https://rest.cosmos.directory/quicksilver",
            "https://quicksilver.api.kjnodes.com"

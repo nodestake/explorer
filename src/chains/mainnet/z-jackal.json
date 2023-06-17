@@ -1,5 +1,5 @@
 {
-    "chain_name": "Jackal-Testnet",
+    "chain_name": "jackal-testnet",
     "coingecko": "",
     "api": [
             "https://api-t.jackal.nodestake.top",

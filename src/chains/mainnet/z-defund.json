@@ -1,5 +1,5 @@
 {
-    "chain_name": "Defund-Testnet",
+    "chain_name": "defund-testnet",
     "coingecko": "",
     "api": [
             "https://api-t.defund.nodestake.top",

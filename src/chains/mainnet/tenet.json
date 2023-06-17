@@ -1,6 +1,6 @@
 {
-    "chain_name": "Tenet",
-    "coingecko": "",
+    "chain_name": "tenet",
+    "coingecko": "tenet",
     "api": [
             "https://rest.cosmos.directory/tenet",
             "https://api.tenet.nodestake.top"

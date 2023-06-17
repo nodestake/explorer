@@ -1,5 +1,5 @@
 {
-  "chain_name": "Agoric-Testnet",
+  "chain_name": "agoric-testnet",
   "api": [
     "https://api-t.agoric.nodestake.top",
     "https://emerynet.api.agoric.net"

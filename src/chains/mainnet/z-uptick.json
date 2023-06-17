@@ -2,12 +2,10 @@
     "chain_name": "uptick-testnet",
     "coingecko": "",
     "api": [
-            "https://api-t.uptick.nodestake.top",
-            "https://uptick-testnet.api.kjnodes.com"
+            "https://api-t.uptick.nodestake.top"
           ],
     "rpc": [
-            "https://rpc-t.uptick.nodestake.top",
-            "https://uptick-testnet.rpc.kjnodes.com"
+            "https://rpc-t.uptick.nodestake.top"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.46.0",
@@ -22,8 +20,8 @@
       "high": 40000000000
     },
     "assets": [{
-        "base": "auptick",
-        "symbol": "UPTICK",
+        "base": "auoc",
+        "symbol": "UOC",
         "exponent": 18,
         "coingecko_id": "uptick",
         "logo": "/logos/uptick.jpg"

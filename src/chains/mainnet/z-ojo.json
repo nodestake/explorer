@@ -1,5 +1,5 @@
 {
-  "chain_name": "Ojo-Testnet",
+  "chain_name": "ojo-testnet",
   "api":[
     "https://api-t.ojo.nodestake.top",
     "https://ojo-testnet.api.kjnodes.com",

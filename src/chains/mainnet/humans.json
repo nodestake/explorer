@@ -1,5 +1,5 @@
 {
-    "chain_name": "Humans",
+    "chain_name": "humans",
     "coingecko": "",
     "api": [
             "https://api.humans.nodestake.top"
@@ -23,7 +23,7 @@
         "base": "aheart",
         "symbol": "HEART",
         "exponent": 18,
-        "coingecko_id": "",
+        "coingecko_id": "humans-ai",
         "logo": "/logos/humans.jpg"
     }]
 }

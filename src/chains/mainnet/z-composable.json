@@ -1,5 +1,5 @@
 {
-    "chain_name": "Composable-Testnet",
+    "chain_name": "composable-testnet",
     "api": [
             "https://api-t.composable.nodestake.top",
             "https://api-banksy.notional.ventures"

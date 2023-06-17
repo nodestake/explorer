@@ -1,13 +1,14 @@
 {
     "chain_name": "desmos",
     "coingecko": "desmos",
-    "api": ["https://api.mainnet.desmos.network"],
-    "rpc": ["https://rpc.mainnet.desmos.network:443"],
+    "api": ["https://api.mainnet.desmos.network", "https://desmos-api.lavenderfive.com"],
+    "rpc": ["https://rpc.mainnet.desmos.network:443", "https://desmos-rpc.lavenderfive.com:443"],
     "sdk_version": "0.45.8",
-    "coin_type": "852",
+    "coin_type": "118",
     "min_tx_fee": "3000",
     "addr_prefix": "desmos",
     "logo": "/logos/desmos.png",
+    "theme_color": "#ed6c53",
     "assets": [{
         "base": "udsm",
         "symbol": "DSM",

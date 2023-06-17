@@ -1,5 +1,5 @@
 {
-    "chain_name": "Sao-Testnet",
+    "chain_name": "sao-testnet",
     "api":[
            "https://api-t.sao.nodestake.top"
           ],

@@ -1,5 +1,5 @@
 {
-    "chain_name": "Whitewhale",
+    "chain_name": "whitewhale",
     "api":[
            "https://rest.cosmos.directory/migaloo",
            "https://api.whitewhale.nodestake.top",

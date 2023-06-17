@@ -1,5 +1,5 @@
 {
-    "chain_name": "Hypersign-Testnet",
+    "chain_name": "hypersign-testnet",
     "api": [
             "https://api-t.hypersign.nodestake.top",
             "https://hypersign-testnet.api.kjnodes.com"

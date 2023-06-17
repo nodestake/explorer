@@ -1,5 +1,5 @@
 {
-    "chain_name": "Cardchain-Testnet",
+    "chain_name": "cardchain-testnet",
     "api": [
             "https://api-t.crowd.nodestake.top",
             "https://cardchain-testnet.nodejumper.io:1317",

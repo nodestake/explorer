@@ -1,5 +1,5 @@
 {
-    "chain_name": "Terp",
+    "chain_name": "terp",
     "api": [
             "https://rest.cosmos.directory/terpnetwork",
             "https://api.terp.nodestake.top"

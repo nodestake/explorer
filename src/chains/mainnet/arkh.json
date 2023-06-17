@@ -1,5 +1,5 @@
 {
-    "chain_name": "Arkh",
+    "chain_name": "arkh",
     "api":[
            "https://api.arkh.nodestake.top",
            "https://api.arkh.nodexcapital.com"

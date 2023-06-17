@@ -1,5 +1,5 @@
 {
-    "chain_name": "Lambda",
+    "chain_name": "lambda",
     "api": ["https://rest.cosmos.directory/lambda","https://api.lambda.nodestake.top","https://rest.lambda.im"],
     "rpc": ["https://rpc.cosmos.directory/lambda","https://rpc.lambda.nodestake.top","https://rpc.lambda.im"],
     "snapshot_provider": "",

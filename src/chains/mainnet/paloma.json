@@ -1,5 +1,5 @@
 {
-    "chain_name": "Paloma",
+    "chain_name": "paloma",
     "api": [
             "https://paloma.api.kjnodes.com"
           ],

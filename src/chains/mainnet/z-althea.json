@@ -1,5 +1,5 @@
 {
-    "chain_name": "Althea-Testnet",
+    "chain_name": "althea-testnet",
     "api": [
             "https://althea-testnet-api.polkachu.com",
             "https://api-t.althea.nodestake.top",

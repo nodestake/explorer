@@ -1,5 +1,5 @@
 {
-    "chain_name": "Acre",
+    "chain_name": "acre",
     "coingecko": "arable-protocol",
     "api":[
            "https://rest.cosmos.directory/acrechain",

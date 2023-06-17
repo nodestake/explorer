@@ -1,5 +1,5 @@
 {
-    "chain_name": "Andromeda-Testnet",
+    "chain_name": "andromeda-testnet",
     "api": [
             "https://api-t.andromeda.nodestake.top",
             "https://api-andromeda.nodeist.net"

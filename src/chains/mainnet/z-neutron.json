@@ -1,22 +1,21 @@
 {
-    "chain_name": "neutron",
+    "chain_name": "neutron-testnet",
     "provider_chain": {
-        "api": "https://api-cosmoshub-ia.cosmosia.notional.ventures"
+        "api": "https://rest.provider-sentry-01.rs-testnet.polypore.xyz"
     },
     "api": [
-            "https://api.neutron.nodestake.top",
-            "https://neutron-api.polkachu.com"
+            "https://api-t.neutron.nodestake.top",
+            "https://neutron-testnet-api.polkachu.com"
           ],
     "rpc": [
-            "https://rpc.neutron.nodestake.top",
-            "https://neutron-rpc.polkachu.com"
+            "https://rpc-t.neutron.nodestake.top",
+            "https://neutron-testnet-rpc.polkachu.com"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.45.15",
     "coin_type": 118,
     "min_tx_fee": "5000",
     "addr_prefix": "neutron",
-    "theme_color": "#161723",
     "logo": "/logos/neutron.jpg",
     "assets": [{
         "base": "untrn",

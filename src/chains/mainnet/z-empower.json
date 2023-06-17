@@ -1,5 +1,5 @@
 {
-    "chain_name": "Empower-Testnet",
+    "chain_name": "empower-testnet",
     "api": [
             "https://api-t.empower.nodestake.top"
           ],
