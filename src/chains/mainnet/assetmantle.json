@@ -1,5 +1,6 @@
 {
     "chain_name": "assetmantle",
+    "coingecko": "assetmantle",
     "api": ["https://rest.cosmos.directory/assetmantle","https://api.assetmantle.nodestake.top","https://assetmantle-api.polkachu.com:443"],
     "rpc": ["https://rpc.assetmantle.nodestake.top","https://assetmantle-rpc.polkachu.com:443"],
     "snapshot_provider": "",
@@ -13,7 +14,7 @@
         "base": "umntl",
         "symbol": "MNTL",
         "exponent": 6,
-        "coingecko_id": "mantle-1",
+        "coingecko_id": "assetmantle",
         "logo": "/logos/assetmantle.jpg"
     }]
 }
