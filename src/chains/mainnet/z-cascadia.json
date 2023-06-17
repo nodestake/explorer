@@ -22,7 +22,7 @@
       "high": 40000000000
     },
     "assets": [{
-        "base": "acc",
+        "base": "aCC",
         "symbol": "CC",
         "exponent": "18",
         "coingecko_id": "",
