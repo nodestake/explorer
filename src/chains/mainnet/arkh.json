@@ -9,7 +9,7 @@
            "https://rpc.arkh.nodexcapital.com"
          ],
     "snapshot_provider": "",
-    "sdk_version": "0.46.7",
+    "sdk_version": "0.44.5",
     "coin_type": 118,
     "min_tx_fee": "5000",
     "addr_prefix": "arkh",
