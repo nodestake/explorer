@@ -3,7 +3,7 @@
     "api": ["https://api-t.c4e.nodestake.top"],
     "rpc": ["https://rpc-t.c4e.nodestake.top"],
     "sdk_version": "0.46.10",
-    "coin_type": 4444,
+    "coin_type": 118,
     "min_tx_fee": "3000",
     "addr_prefix": "c4e",
     "logo": "/logos/c4e.png",
