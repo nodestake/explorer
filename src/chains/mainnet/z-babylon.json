@@ -10,7 +10,7 @@
     "sdk_version": "0.47.3",
     "coin_type": 118,
     "min_tx_fee": "5000",
-    "addr_prefix": "babylon",
+    "addr_prefix": "bbn",
     "logo": "/logos/babylon.jpg",
     "keplr_features": ["ibc-transfer", "ibc-go"],
     "assets": [{
