@@ -1,0 +1,23 @@
+{
+    "chain_name": "babylon-testnet",
+    "api":[
+           "https://api-t.babylon.nodestake.top"
+          ],
+    "rpc":[
+           "https://rpc-t.babylon.nodestake.top",
+         ],
+    "snapshot_provider": "",
+    "sdk_version": "0.47.3",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "babylon",
+    "logo": "/logos/babylon.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "assets": [{
+        "base": "ubbn",
+        "symbol": "BBN",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/babylon.jpg"
+    }]
+}
