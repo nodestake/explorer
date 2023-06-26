@@ -4,7 +4,7 @@
            "https://api-t.babylon.nodestake.top"
           ],
     "rpc":[
-           "https://rpc-t.babylon.nodestake.top",
+           "https://rpc-t.babylon.nodestake.top"
          ],
     "snapshot_provider": "",
     "sdk_version": "0.47.3",
