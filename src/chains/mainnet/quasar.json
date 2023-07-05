@@ -2,11 +2,11 @@
     "chain_name": "quasar",
     "coingecko": "",
     "api": [
-            "https://api.quasar.nodestake.top",
+            "https://rest.cosmos.directory/quasar",
             "https://quasar-api.polkachu.com"
            ],
     "rpc": [
-            "https://rpc.quasar.nodestake.top",
+            "https://rpc.cosmos.directory/quasar",
             "https://quasar-rpc.polkachu.com"
            ],
     "snapshot_provider": "",
