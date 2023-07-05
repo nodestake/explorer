@@ -1,10 +1,12 @@
 {
     "chain_name": "sao-testnet",
     "api":[
-           "https://api-t.sao.nodestake.top"
+           "https://api-t.sao.nodestake.top",
+           "https://api-beta.sao.network"
           ],
     "rpc":[
-           "https://rpc-t.sao.nodestake.top"
+           "https://rpc-t.sao.nodestake.top",
+           "https://rpc-beta.sao.network"
          ],
     "snapshot_provider": "",
     "sdk_version": "0.46.6",
@@ -13,8 +15,8 @@
     "addr_prefix": "sao",
     "logo": "/logos/sao.jpg",
     "assets": [{
-        "base": "sao",
-        "symbol": "SAO",
+        "base": "usct",
+        "symbol": "SAO Credit",
         "exponent": 6,
         "coingecko_id": "",
         "logo": "/logos/sao.jpg"
