@@ -1,14 +1,10 @@
 {
     "chain_name": "althea-testnet",
     "api": [
-            "https://althea-testnet-api.polkachu.com",
-            "https://api-t.althea.nodestake.top",
-            "https://althea.api.t.anode.team/"
+            "https://api-t.althea.nodestake.top"
           ],
     "rpc": [
-            "https://althea-testnet-rpc.polkachu.com",
-            "https://rpc-t.althea.nodestake.top",
-            "https://althea.rpc.t.anode.team"
+            "https://rpc-t.althea.nodestake.top"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.45.7",
@@ -17,7 +13,7 @@
     "addr_prefix": "althea",
     "logo": "/logos/althea.jpg",
     "assets": [{
-        "base": "ualthea",
+        "base": "aalthea",
         "symbol": "ALTHEA",
         "exponent": 18,
         "coingecko_id": "",
