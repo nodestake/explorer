@@ -1,12 +1,12 @@
 {
   "chain_name": "nois-testnet",
   "api": [
-    "https://api-t.nois.nodestake.top",
-    "https://nois-testnet-api.polkachu.com"
+    "https://nois-testnet-api.polkachu.com",
+    "https://api-t.nois.nodestake.top"
   ],
   "rpc": [
-    "https://rpc-t.nois.nodestake.top",
-    "https://nois-testnet-rpc.polkachu.com"
+    "https://nois-testnet-rpc.polkachu.com",
+    "https://rpc-t.nois.nodestake.top"
   ],
   "sdk_version": "0.45.5",
   "coin_type": 118,
