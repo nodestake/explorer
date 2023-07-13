@@ -1,0 +1,24 @@
+{
+    "chain_name": "celestia-testnet",
+    "api":[
+           "https://api-t.celestia.nodestake.top",
+           "https://api-mocha.pops.one"
+          ],
+    "rpc":[
+           "https://rpc-t.celestia.nodestake.top",
+           "https://rpc-mocha.pops.one"
+         ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.13",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "celestia",
+    "logo": "/logos/celestia.png",
+    "assets": [{
+        "base": "utia",
+        "symbol": "TIA",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/celestia.png"
+    }]
+}
