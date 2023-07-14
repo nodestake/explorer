@@ -1,9 +1,11 @@
 {
     "chain_name": "empower",
     "api": [
+            "https://rest.cosmos.directory/empowerchain",
             "https://api.empower.nodestake.top"
           ],
     "rpc": [
+            "https://rpc.cosmos.directory/empowerchain",
             "https://rpc.empower.nodestake.top"
           ],
     "snapshot_provider": "",
