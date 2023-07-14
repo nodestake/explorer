@@ -2,9 +2,11 @@
     "chain_name": "realio",
     "coingecko": "",
     "api": [
+            "https://rest.cosmos.directory/realio",
             "https://api.realio.nodestake.top"
           ],
     "rpc": [
+            "https://rpc.cosmos.directory/realio",
             "https://rpc.realio.nodestake.top"
           ],
     "snapshot_provider": "",
