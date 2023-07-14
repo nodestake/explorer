@@ -1,12 +1,12 @@
 {
     "chain_name": "ununifi",
     "api": [
-            "https://api.ununifi.nodestake.top",
-            "https://ununifi.api.m.anode.team"
+            "https://rest.cosmos.directory/ununifi",
+            "https://api.ununifi.nodestake.top"
           ],
     "rpc": [
-            "https://rpc.ununifi.nodestake.top",
-            "https://ununifi.rpc.m.anode.team"
+            "https://rpc.cosmos.directory/ununifi",
+            "https://rpc.ununifi.nodestake.top"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.45.1",
