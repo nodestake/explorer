@@ -2,14 +2,12 @@
     "chain_name": "loyal",
     "coingecko": "",
     "api": [
-            "https://api.loyal.nodestake.top",
-            "https://loyal-api.polkachu.com",
-            "https://api-loyal.nodeist.net"
+            "https://rest.cosmos.directory/loyal",
+            "https://api.loyal.nodestake.top"
            ],
     "rpc": [
-            "https://rpc.loyal.nodestake.top",
-            "https://loyal-rpc.polkachu.com",
-            "https://rpc-loyal.nodeist.net"
+            "https://rpc.cosmos.directory/loyal",
+            "https://rpc.loyal.nodestake.top"
            ],
     "snapshot_provider": "",
     "sdk_version": "0.46.6",
