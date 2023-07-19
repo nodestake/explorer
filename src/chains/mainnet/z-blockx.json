@@ -4,12 +4,13 @@
     "api": [
             "https://api-t.blockx.nodestake.top",
             "https://testnet8-api.blockxnet.com",
-            "https://api-blockx.nodeist.net"
+            "http://143.198.97.96:1317"
           ],
     "rpc": [
             "https://rpc-t.blockx.nodestake.top",
             "https://testnet8-rpc.blockxnet.com",
-            "https://rpc-blockx.nodeist.net"
+            "http://143.198.97.96:26657",
+            "http://136.243.88.91:7131"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.45.7",
