@@ -1,0 +1,22 @@
+{
+    "chain_name": "mun",
+    "api":[
+           "https://api.mun.nodestake.top"
+          ],
+    "rpc":[
+           "https://rpc.mun.nodestake.top",
+           "https://mainnet1rpc.mun.money"
+          ],
+    "sdk_version": "0.45.6",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "mun",
+    "logo": "/logos/mun.jpg",
+    "assets": [{
+        "base": "umun",
+        "symbol": "MUN",
+        "exponent": 6,
+        "coingecko_id": "mun",
+        "logo": "/logos/mun.jpg"
+    }]
+}
