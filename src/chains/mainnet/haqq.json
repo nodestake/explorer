@@ -2,14 +2,14 @@
     "chain_name": "haqq",
     "coingecko": "",
     "api": [
+            "https://rest.cosmos.directory/haqq",
             "https://api.haqq.nodestake.top",
-            "https://rest.cosmos.haqq.network",
-            "https://rest.cosmos.directory/haqq"
+            "https://rest.cosmos.haqq.network"
           ],
     "rpc": [
+            "https://rpc.cosmos.directory/haqq",
             "https://rpc.haqq.nodestake.top",
-            "https://rpc.tm.haqq.network",
-            "https://rpc.cosmos.directory/haqq"
+            "https://rpc.tm.haqq.network"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.46.7",
