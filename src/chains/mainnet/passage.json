@@ -1,0 +1,23 @@
+{
+    "chain_name": "passage",
+    "api":[
+           "https://api.passage.nodestake.top",
+           "https://rest.cosmos.directory:443/passage"
+          ],
+    "rpc":[
+           "https://rpc.passage.nodestake.top",
+           "https://rpc.cosmos.directory:443/passage"
+          ],
+    "sdk_version": "0.45.16",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "pasg",
+    "logo": "/logos/passage.png",
+    "assets": [{
+        "base": "upasg",
+        "symbol": "PASG",
+        "exponent": 6,
+        "coingecko_id": "passage",
+        "logo": "/logos/passage.png"
+    }]
+}
