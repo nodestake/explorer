@@ -1,12 +1,12 @@
 {
     "chain_name": "qwoyn",
     "api":[
-           "https://api.qwoyn.nodestake.top",
-           "https://rest.cosmos.directory/qwoyn"
+           "https://rest.cosmos.directory/qwoyn",
+           "https://api.qwoyn.nodestake.top"
           ],
     "rpc":[
-           "https://rpc.qwoyn.nodestake.top",
-           "https://rpc.cosmos.directory/qwoyn"
+           "https://rpc.cosmos.directory/qwoyn",
+           "https://rpc.qwoyn.nodestake.top"
          ],
     "snapshot_provider": "",
     "sdk_version": "0.45.1",
