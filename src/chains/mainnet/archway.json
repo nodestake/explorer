@@ -1,10 +1,12 @@
 {
     "chain_name": "archway",
     "api": [
+            "https://rest.cosmos.directory/archway",
             "https://api.archway.nodestake.top"
           ],
     "rpc": [
-            "https://rpc.archway.nodestake.top"
+            "https://rpc.cosmos.directory/archway",
+            "https://api.archway.nodestake.top"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.45.16",
