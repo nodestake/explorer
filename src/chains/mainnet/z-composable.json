@@ -1,10 +1,10 @@
 {
-    "chain_name": "banksy-testnet",
+    "chain_name": "composable-testnet",
     "api": [
-            "https://api-t.banksy.nodestake.top"
+            "https://api-t.composable.nodestake.top"
           ],
     "rpc": [
-            "https://rpc-t.banksy.nodestake.top"
+            "https://rpc-t.composable.nodestake.top"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.47.1",
