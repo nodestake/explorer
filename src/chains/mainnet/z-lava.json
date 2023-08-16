@@ -9,10 +9,10 @@
            "https://rpc-1.lava.nodes.guru"
          ],
     "snapshot_provider": "",
-    "sdk_version": "0.45.11",
+    "sdk_version": "0.47.3",
     "coin_type": 118,
     "min_tx_fee": "5000",
-    "addr_prefix": "lava",
+    "addr_prefix": "lava@",
     "logo": "/logos/lava.jpg",
     "assets": [{
         "base": "ulava",
