@@ -11,8 +11,8 @@
            "https://dymension-testnet.rpc.kjnodes.com"
          ],
     "snapshot_provider": "",
-    "sdk_version": "0.45.10",
-    "coin_type": 118,
+    "sdk_version": "0.46.10",
+    "coin_type": 60,
     "min_tx_fee": "5000",
     "addr_prefix": "dym",
     "logo": "/logos/dymension.jpg",
