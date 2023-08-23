@@ -19,7 +19,7 @@
     "assets": [{
         "base": "udym",
         "symbol": "DYM",
-        "exponent": 6,
+        "exponent": 18,
         "coingecko_id": "",
         "logo": "/logos/dymension.jpg"
     }]
