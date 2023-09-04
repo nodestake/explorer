@@ -1,0 +1,25 @@
+{
+  "chain_name": "sge",
+  "api": [
+    "https://api.sge.nodestake.top",
+    "https://rest.cosmos.directory:443/sge"
+  ],
+  "rpc": [
+    "https://rpc.sge.nodestake.top",
+    "https://rpc.cosmos.directory:443/sge"
+  ],
+  "sdk_version": "0.46.14",
+  "coin_type": 118,
+  "addr_prefix": "sge",
+  "min_tx_fee": "5000",
+  "logo": "/logos/sge.jpg",
+  "assets": [
+    {
+      "symbol": "SGE",
+      "base": "usge",
+      "exponent": 6,
+      "coingecko_id": "sge",
+      "logo": "/logos/sge.jpg"
+    }
+  ]
+}
