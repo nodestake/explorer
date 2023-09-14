@@ -2,11 +2,11 @@
   "chain_name": "nibiru-testnet",
   "api":[
     "https://api-t.nibiru.nodestake.top",
-    "https://lcd.itn-1.nibiru.fi"
+    "https://lcd.itn-2.nibiru.fi"
   ],
   "rpc":[
     "https://rpc-t.nibiru.nodestake.top",
-    "https://rpc.itn-1.nibiru.fi"
+    "https://rpc.itn-2.nibiru.fi"
   ],
   "snapshot_provider": "",
   "sdk_version": "0.46.0",
