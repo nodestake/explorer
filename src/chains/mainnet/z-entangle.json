@@ -5,7 +5,7 @@
             "https://api-t.entangle.nodestake.top"
           ],
     "rpc": [
-            "https://rpc-t.entangle.nodestake.top",
+            "https://rpc-t.entangle.nodestake.top"
           ],
     "snapshot_provider": "",
     "sdk_version": "0.46.12",
